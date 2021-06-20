@@ -2,10 +2,15 @@
     /* border: 5px solid red; */
     height: 100vh;
     width: 100%;
-    background-image: url(../PortfolioProject/assets/background-original-v8.jpeg);
+    background-image: url(../PortfolioProject/assets/final\ image\ 2\ of\ 2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    /* opacity: .75; */
 }
+
+/* .hero:hover {
+    opacity: 1;
+} */
 
 .hero-content {
     display: flex;
@@ -25,4 +30,40 @@
     width: 100%;
 }
 
+#credo-wrapper {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    margin: 0;
+}
 
+.credo-divs {
+    width: 25%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: 1px solid white;   
+}
+
+
+.credo-image {
+    display: flex;
+}
+
+.credo-para {
+    display: none;    
+}
+
+.credo-divs:hover .credo-image, .credo-divs:focus .credo-image, .credo-divs:active .credo-image {
+    display: none;
+}
+
+.credo-divs:hover .credo-para, .credo-divs:focus .credo-para, .credo-divs:active .credo-para {
+    display: flex;
+}
