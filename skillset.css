@@ -1,0 +1,39 @@
+#skillset-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#skillset-wrapper h1 {
+    font-size:
+    color:
+}
+
+#skills-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills {
+    width: 15%;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills i {
+
+}
+
+.skills h3 {
+
+}
+
+.skills p {
+
+}
+

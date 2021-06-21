@@ -1,0 +1,19 @@
+#about-me {
+  height: 50vh;
+  width: 100%;
+  /* break-after: auto; */
+}
+
+.section-padding {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1 px solid gray;
+  margin: 2em;
+  padding: 0;
+}

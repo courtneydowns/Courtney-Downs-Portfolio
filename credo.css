@@ -1,0 +1,157 @@
+#credo-wrapper {
+  /* break-before: auto; */
+  height: 100vh;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  /* margin: 0; */
+  flex-wrap: wrap;
+  display: flex;
+  /* align-items: center;
+  align-content: center;
+  justify-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.credo-divs {
+  width: 20%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border: 1px solid white;
+  margin: 20px;
+}
+
+.h1-title {
+  font-size: 2.25em;
+  color: solid #a9a9a9;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: medium;
+}
+
+.credo-divs h1 {
+  font-size: 2rem;
+}
+
+.h1-credo {
+  font-size: 1.25em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.h3-section {
+  font-size: 1.25em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.credo-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 6rem;
+  width: 6rem;
+}
+
+/* .credo-image-imagine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 6rem;
+  width: 6rem;
+}
+
+.credo-image-enthusiasm {
+  display: flex;
+  flex-direction: row;
+  height: 6rem;
+  width: 6rem;
+}
+
+.credo-image-detail {
+  display: flex;
+  flex-direction: row;
+  height: 7rem;
+  width: 7rem;
+}
+
+.credo-image-dedication {
+  display: flex;
+  flex-direction: row;
+  height: 6rem;
+  width: 6rem;
+}
+
+.credo-image-communication {
+  display: flex;
+  direction: row;
+  height: 6rem;
+  width: 6rem;
+}
+
+.credo-image-teamwork {
+  display: flex;
+
+  height: 6rem;
+  width: 6rem;
+}
+
+.credo-image-perfection {
+  display: flex;
+  direction: row;
+  height: 6rem;
+  width: 6rem;
+}
+
+.credo-image-success {
+  display: flex;
+  direction: row;
+  height: 6rem;
+  width: 6rem;
+} */
+
+.credo-para {
+  display: none;
+}
+
+/* .credo-divs:hover .credo-image, .credo-divs:focus .credo-image, .credo-divs:active .credo-image {
+    display: none;
+} */
+
+.credo-divs:hover .credo-para,
+.credo-divs:focus .credo-para,
+.credo-divs:active .credo-para {
+  display: flex;
+}
+
+.credo-divs:hover .h1-credo,
+.credo-divs:focus .h1-credo,
+.credo-divs:active .h1-credo {
+  display: none;
+}
