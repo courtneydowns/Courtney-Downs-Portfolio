@@ -1,8 +1,9 @@
 :root {
-  --neonpink: #c5247e;
-  --neonblue: #022cd4;
-  --lighblue: #03b3f2;
+  --pink: #c5247e;
+  --midnightblue: #012373;
+  --indigo: #5d1a80;
   --white: #ffffff;
   --black: #000000;
   --gray: #a9a9a9;
+  --steelgray: #71797e;
 }

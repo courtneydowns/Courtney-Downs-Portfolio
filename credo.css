@@ -1,68 +1,180 @@
 #credo-wrapper {
   /* break-before: auto; */
-  height: 100vh;
-  width: 100%;
-  height: auto;
-  padding: 1em;
+  /* height: 85vh; */
+  /* width: 100%; */
+  /* height: auto; */
+  /* padding: 1em; */
   /* margin: 0; */
-  flex-wrap: wrap;
-  display: flex;
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-direction: column-reverse; */
   /* align-items: center;
   align-content: center;
   justify-content: center; */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.credo-divs {
-  width: 20%;
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* display: flex; */
   /* flex-direction: row; */
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  border: 1px solid white;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 40px;
+  /* line-height: 10%; */
   margin: 20px;
 }
 
-.h1-title {
-  font-size: 2.25em;
-  color: solid #a9a9a9;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+.credo-container {
+  height: 75vh;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
 }
 
-.h1 {
+.h1-my-credo {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium 500;
+  padding-top: 70px;
+}
+
+.credo-divs {
+  /* width: 20%; */
+  /* padding: 1em; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+  margin: 50px;
+  padding-bottom: 60px;
+  /* padding-top: 60px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 70px;
+  line-height: -30rem;
+  /* flex: 0 0 50px; */
+  /* margin: 5px; */
+}
+
+/* .h1 {
   font-size: 3.5rem;
   text-align: center;
   justify-content: center;
   align-items: center;
   align-content: center;
   display: flex;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: medium;
-}
+} */
 
-.credo-divs h1 {
-  font-size: 2rem;
-}
+/* .credo-divs h1 {
+  font-size: 16rem;
+} */
 
 .h1-credo {
-  font-size: 1.25em;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #71797e;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
 }
 
-.h3-section {
-  font-size: 1.25em;
-  font-family: 'Montserrat', sans-serif;
+.h3-section-imagine {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  padding-left: 5px;
+  margin: 10px;
+}
+
+.h3-section-enthusiasm {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  padding-left: 5px;
+  margin: 5px;
+}
+
+.h3-section-detail-oriented {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 23px;
+  margin-right: 20px;
+}
+
+.h3-section-dedication {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 10px;
+}
+
+.h3-section-communication {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-right: 40px;
+}
+
+.h3-section-teamwork {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-right: 20px;
+  padding-left: 5px;
+}
+
+.h3-section-teamwork {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-right: 20px;
+  padding-left: 5px;
+}
+
+.h3-section-success {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 12px;
+  padding-left: 5px;
 }
 
 .credo-image {
@@ -74,75 +186,18 @@
   text-align: center;
   height: 6rem;
   width: 6rem;
+  margin: 3px;
 }
-
-/* .credo-image-imagine {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  height: 6rem;
-  width: 6rem;
-}
-
-.credo-image-enthusiasm {
-  display: flex;
-  flex-direction: row;
-  height: 6rem;
-  width: 6rem;
-}
-
-.credo-image-detail {
-  display: flex;
-  flex-direction: row;
-  height: 7rem;
-  width: 7rem;
-}
-
-.credo-image-dedication {
-  display: flex;
-  flex-direction: row;
-  height: 6rem;
-  width: 6rem;
-}
-
-.credo-image-communication {
-  display: flex;
-  direction: row;
-  height: 6rem;
-  width: 6rem;
-}
-
-.credo-image-teamwork {
-  display: flex;
-
-  height: 6rem;
-  width: 6rem;
-}
-
-.credo-image-perfection {
-  display: flex;
-  direction: row;
-  height: 6rem;
-  width: 6rem;
-}
-
-.credo-image-success {
-  display: flex;
-  direction: row;
-  height: 6rem;
-  width: 6rem;
-} */
 
 .credo-para {
   display: none;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
 }
-
-/* .credo-divs:hover .credo-image, .credo-divs:focus .credo-image, .credo-divs:active .credo-image {
-    display: none;
-} */
 
 .credo-divs:hover .credo-para,
 .credo-divs:focus .credo-para,

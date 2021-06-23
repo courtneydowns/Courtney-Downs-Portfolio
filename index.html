@@ -26,236 +26,420 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/547020429b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <!-- Nav Bar -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <!-- <nav class="navbar"> -->
-      <div class="container">
-        <h1 class="my-name-navbar-brand">COURTNEY DOWNS</h1>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        > 
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="#">COURTNEY DOWNS</a>
+        </div>
+        <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button> -->
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav" id="nav-over">
             <li class="nav-item">
-              <a class="navLink" aria-current="page" href="#">HOME</a>
+              <a class="nav-link active" aria-current="page" href="#">
+                HOME
+              </a>
             </li>
             <li class="nav-item">
-              <a class="navLink" href="#">ABOUT</a>
+              <a class="nav-link" href="#">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="navLink" href="#">CREDO</a>
+              <a class="nav-link" href="#">CREDO</a>
             </li>
             <li class="nav-item">
-              <a class="navLink" href="#">SKILLS</a>
+              <a class="nav-link" href="#">SKILLS</a>
             </li>
             <li class="nav-item">
-              <a class="navLink" href="#">PORTFOLIO</a>
+              <a class="nav-link" href="#">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="navLink" href="#">RESUME</a>
+              <a class="nav-link" href="#">RESUME</a>
             </li>
             <li class="nav-item">
-              <a class="navLink" href="#">CONTACT</a>
+              <a class="nav-link" href="#">CONTACT</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-
+    </div>
     <!-- HERO LANDING PAGE -->
 
-    <div class="hero">
-      <!-- <img src="../PortfolioProject/assets/background-header-original.jpeg" class="hero-image"> -->
+    <!-- <div class="hero"> -->
+    <!-- <img src="../PortfolioProject/assets/background-header-original.jpeg" class="hero-image"> -->
+    <section class="hero-background">
       <div class="hero-content">
         <img src="assets/LogoWhite.png" class="logo-image" />
       </div>
-    </div>
+    </section>
 
     <!-- ABOUT ME -->
-    <section id="about-me" class="section-padding">
-      <div class="container text-center">
-        <h3>About Me</h3>
-        <div class="container">
-          <div class=row>
-          <div class="col-4-sm">
-            <p class="para 1">"Boggarts lavender robes, Hermione Granger Fantastic Beasts and Where to Find Them. Bee in your bonnet Hand of Glory elder wand, spectacles House Cup Bertie Bott’s Every Flavor Beans Impedimenta. Stunning spells tap-dancing spider Slytherin’s Heir mewing kittens Remus Lupin. Palominos scarlet train black robes, Metamorphimagus Niffler dead easy second bedroom. Padma and Parvati Sorting Hat Minister of Magic blue turban remember my last."</p>
-          </div>
-          <div class="col-4-sm">
-            <p class="para 2">"Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss? Poltergeist sticking charm, troll umbrella stand flying cars golden locket Lily Potter. Pumpkin juice Trevor wave your wand out glass orbs, a Grim knitted hats. Stan Shunpike doe patronus, suck his soul Muggle-Born large order of drills the trace. Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog. Yer a wizard, Harry Doxycide the woes of Mrs. Weasley Goblet of Fire."</p>
-          </div>
-          <div class="col-4-sm">
-            <p class="para 3">"Shameless self-promo"</p>
+
+    <!-- <section id="about-me" class="section-padding">
+    <div class="container text-center"></div>
+    <h2 class="md-60">About Me</h2>
+      <div class=container>
+      <div class=row>
+        <div class="col-md-4 mb-sm-30">
+          <p class="intro-para-1">
+          "Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies."</p> 
+        </div>
+        <div class="col-md-4 mb-sm-30">
+          <p class="intro-para-2">
+          "Prefect’s bathroom Trelawney veela squashy armchairs, SPEW: Gamp’s Elemental Law of Transfiguration. Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified. Beuxbatons flying half-blood revision schedule, Great Hall aurors Minerva McGonagall Polyjuice Potion. Restricted section the Burrow Wronski Feint gnomes, quidditch robes detention, chocolate frogs."</p> 
+        </div>
+        <div class="col-md-4">
+        <p class="intro-para-3">
+          "Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies."</p> -->
+    <!-- </div>
+        </div> -->
+    <!-- </div>
+    </div>
+ </section> -->
+    <section id="about-me">
+      <h1 class="about-me-title">About Me</h1>
+      <div class="section-padding">
+        <div class="container-sm">
+          <div class="row">
+            <div class="col">
+              <p>
+                "Boggarts lavender robes, Hermione Granger Fantastic Beasts and
+                Where to Find Them. Bee in your bonnet Hand of Glory elder wand,
+                spectacles House Cup Bertie Bott’s Every Flavor Beans
+                Impedimenta. Stunning spells tap-dancing spider Slytherin’s Heir
+                mewing kittens Remus Lupin. Palominos scarlet train black robes,
+                Metamorphimagus Niffler dead easy second bedroom. Padma and
+                Parvati Sorting Hat Minister of Magic blue turban remember my
+                last."
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                "Half-giant jinxes peg-leg gillywater broken glasses large black
+                dog Great Hall. Nearly-Headless Nick now string them together,
+                and answer me this, which creature would you be unwilling to
+                kiss? Poltergeist sticking charm, troll umbrella stand flying
+                cars golden locket Lily Potter. Pumpkin juice Trevor wave your
+                wand out glass orbs, a Grim knitted hats. Stan Shunpike doe
+                patronus, suck his soul Muggle-Born large order of drills the
+                trace. Bred in captivity fell through the veil, quaffle blue
+                flame ickle diddykins Aragog. Yer a wizard, Harry Doxycide the
+                woes of Mrs. Weasley Goblet of Fire."
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                "Shameless self-promo with github and LinkedIn links and link to
+                portolio later on down page"
+              </p>
+            </div>
           </div>
         </div>
       </div>
-</section>
-<div class="gray-line"></div><hr/>
+    </section>
+
+    <div class="indigo-line"></div>
+    <hr />
+
     <!-- MY CREDO -->
-
-    <!-- <section id="credo-wrapper">
-      <div class=h1-title>Credo</div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="credo-divs">
-            <div class="h1-credo">01</div>
-            <img class="credo-image-imagine" src="../PortfolioProject/assets/Imagine.png" width=/>
-            <div class=h3-section>Imagine the Unimaginable</div>
-            <p class="credo-para">TEST. TEST. TEST</p>
-          </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="credo-divs">
-            <div class="h1-credo">02</div>
-            <img class="credo-image-enthusiasm" src="../PortfolioProject/assets/Enthusiasm.png" width=/>
-            <<div class=h3-section>Enthusiasm</div>
-            <p class="credo-para">TEST. TEST. TEST</p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="credo-divs">
-            <div class="h1-credo">03</div>
-            <img class="credo-image-detail" src="../PortfolioProject/assets/Detail Oriented Planning.png" width=/>
-            <div class=h3-section>Detail Oriented</div>
-            <p class="credo-para">TEST. TEST. TEST</p>
-          </div>
-          </div> 
-        <div class="col-sm-4">
-          <div class="credo-divs">
-            <div class="h1-credo">04</div>
-            <img class="credo-image-dedication" src="../PortfolioProject/assets/Dedication.png" width=/>
-            <div class=h3-section>Dedication</div>
-            <p class="credo-para">TEST. TEST. TEST</p>
-          </div>
-        </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="credo-divs">
-            <div class="h1-credo">05</div>
-            <img class="credo-image-communication" src="../PortfolioProject/assets/Communication - 1.png" width=/>
-            <div class=h3-section>Communication</div>
-            <p class="credo-para">TEST. TEST. TEST</p>
-          </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="credo-divs">
-            <div class="h1-credo">06</div>
-            <img class="credo-image-teamwork" src="../PortfolioProject/assets/Teamwork.png" width=/>
-            <<div class=h3-section>Teamwork</div>
-            <p class="credo-para">TEST. TEST. TEST</p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="credo-divs">
-            <div class="h1-credo">07</div>
-            <img class="credo-image-perfection" src="../PortfolioProject/assets/Perfection.png" width=/>
-            <div class=h3-section>Strive for Perfection</div>
-            <p class="credo-para">TEST. TEST. TEST</p>
-        </div>
-        <div class="col-sm-4">
-        <div class="credo-divs">
-          <div class="h1-credo">08</div>
-          <img class="credo-image-success" src="../PortfolioProject/assets/Success - 2.png" width=/>
-          <div class=h3-section>Success</div>
-          <p class="credo-para">TEST. TEST. TEST</p>
-        </div>
+    <h1 class="h1-my-credo">My Credo</h1>
+    <section id="credo-wrapper" class="credo-container">
+      <div class="credo-divs">
+        <div class="h1-credo">01</div>
+        <img class="credo-image" src="../PortfolioProject/assets/pink imagination.png" width=/>
+        <div class="h3-section-imagine">Imagine</div>
+        <p class="credo-para">TEST. TEST. TEST</p>
       </div>
-        </section> -->
-    <div class=h1-title>Credo</div>
+      <div class="credo-divs">
+        <div class="h1-credo">02</div>
+        <img class="credo-image" src="../PortfolioProject/assets/pink enthusiasm.png" width=/>
+        <div class="h3-section-enthusiasm">Enthusiasm</div>
+        <p class="credo-para">TEST. TEST. TEST</p>
+      </div>
+      <div class="credo-divs">
+        <div class="h1-credo">03</div>
+        <img class="credo-image" src="../PortfolioProject/assets/pink detail oriented.png" width=/>
+        <div class="h3-section-detail-oriented">Detail Oriented</div>
+        <p class="credo-para">TEST. TEST. TEST</p>
+      </div>
+      <div class="credo-divs">
+        <div class="h1-credo">04</div>
+        <img class="credo-image" src="../PortfolioProject/assets/pink dedication.png" width=/>
+        <div class="h3-section-dedication">Dedication</div>
+        <p class="credo-para">TEST. TEST. TEST</p>
+      </div>
+      <div class="credo-divs">
+        <div class="h1-credo">05</div>
+        <img class="credo-image" src="../PortfolioProject/assets/pink communication icon.png" width=/>
+        <div class="h3-section-communication">Communication</div>
+        <p class="credo-para">TEST. TEST. TEST</p>
+      </div>
+      <div class="credo-divs">
+        <div class="h1-credo">06</div>
+        <img class="credo-image" src="../PortfolioProject/assets/pink teamwork.png" width=/>
+        <div class="h3-section-teamwork">Teamwork</div>
+        <p class="credo-para">TEST. TEST. TEST</p>
+      </div>
+      <div class="credo-divs">
+        <div class="h1-credo">07</div>
+        <img class="credo-image" src="assets/pink perfect.png" width=/>
+        <div class="h3-section-perfection">Strive for Perfection</div>
+        <p class="credo-para">TEST. TEST. TEST</p>
+      </div>
+      <div class="credo-divs">
+        <div class="h1-credo">08</div>
+        <img class="credo-image" src="../PortfolioProject/assets/pink success.png" width=/>
+        <div class="h3-section-success">Success</div>
+        <p class="credo-para">TEST. TEST. TEST</p>
+      </div>
+      </div>
+    </section>
 
-    <section id="credo-wrapper" class="container">
-    <div class="credo-divs">
-      <div class="h1-credo">01</div>
-      <img class="credo-image" src="../PortfolioProject/assets/pink imagination.png" width=/>
-      <div class=h3-section>Imagine</div>
-      <p class="credo-para">TEST. TEST. TEST</p>
-    </div>
-    <div class="credo-divs">
-      <div class="h1-credo">02</div>
-      <img class="credo-image" src="../PortfolioProject/assets/pink enthusiasm.png" width=/>
-      <div class=h3-section>Enthusiasm</div>
-      <p class="credo-para">TEST. TEST. TEST</p>
-    </div>
-    <div class="credo-divs">
-      <div class="h1-credo">03</div>
-      <img class="credo-image" src="../PortfolioProject/assets/pink detail oriented.png" width=/>
-      <div class=h3-section>Detail Oriented</div>
-      <p class="credo-para">TEST. TEST. TEST</p>
-    </div>
-    <div class="credo-divs">
-      <div class="h1-credo">04</div>
-      <img class="credo-image" src="../PortfolioProject/assets/pink dedication.png" width=/>
-      <div class=h3-section>Dedication</div>
-      <p class="credo-para">TEST. TEST. TEST</p>
-    </div>
-    <div class="credo-divs">
-      <div class="h1-credo">05</div>
-      <img class="credo-image" src="../PortfolioProject/assets/pink communication icon.png" width=/>
-      <div class=h3-section>Communication</div>
-      <p class="credo-para">TEST. TEST. TEST</p>
-    </div>
-    <div class="credo-divs">
-      <div class="h1-credo">06</div>
-      <img class="credo-image" src="../PortfolioProject/assets/pink teamwork.png" width=/>
-      <div class=h3-section>Teamwork</div>
-      <p class="credo-para">TEST. TEST. TEST</p>
-    </div>
-    <div class="credo-divs">
-      <div class="h1-credo">07</div>
-      <img class="credo-image" src="../PortfolioProject/assets/pink perfect.png" width=/>
-      <div class=h3-section>Strive for Perfection</div>
-      <p class="credo-para">TEST. TEST. TEST</p>
-    </div>
-    <div class="credo-divs">
-      <div class="h1-credo">08</div>
-      <img class="credo-image" src="../PortfolioProject/assets/pink success.png" width=/>
-      <div class=h3-section>Success</div>
-      <p class="credo-para">TEST. TEST. TEST</p>
-    </div>
-  </div>
-    
+    <div class="indgo-line"></div>
+    <hr />
 
     <!-- SKILLSET -->
-    <!-- <section id="skillset-wrapper" class="container">
-      <h1>"My Skillset"</h1>
-      <div id="skills-wrapper"> 
-      <div class="skills">
-        <i class="fas fa-code" set font size and color></i>
-        <h3>HTML/CSS</h3>
+    <h1 class="h1-my-skillset">My Skill Set</h1>
+    <div id=skillset-wrapper>
+    <div class="container d-flex justify-content-evenly">
+        <div class="row d-flex flex-nowrap">
+          <div class="col-sm">
+            <div id="skills-div">
+            <i class="fab fa-html5" style="font-size: 60px"></i>
+              <p class="skill-text">HTML & CSS</p>    
+            </div>
+          </div>
+          <div class="col-sm">
+            <div id="skills-div">
+              <i class="fab fa-bootstrap" style="font-size: 60px"></i>
+              <p class="skill-text">BOOTSTRAP</p>
+            </div>
+          </div>
+        <div class="col-sm">
+          <div id="skills-div">
+            <i class="far fa-edit" style="font-size: 60px"></i>
+            <p class="skill-text">WIREFRAMING</p>
+            <p class="skill-summary">text. test. test.</p>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div id="skills-div">
+           <i class="fab fa-js-square" style="font-size: 60px"></i>
+            <p class="skill-text">JAVASCRIPT</p>
+            <p class="skill-summary">text. test. test.</p>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div id="skills-div">
+            <i class="fab fa-react" style="font-size: 60px"></i>
+            <p class="skill-text">REACT</p>
+            <p class="skill-summary">text. test. test.</p>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div id="skills-div">
+            <i class="fab fa-node-js" style="font-size: 60px"></i>
+            <p class="skill-text">NODE.JS</p>
+            <p class="skill-summary">text. test. test.</p>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div id="skills-div">
+           <i class="fab fa-github" style="font-size: 60px"></i>
+            <p class="skill-text">GITHUB</p>
+            <p class="skill-summary">text. test. test.</p>
+          </div> 
+        </div>
       </div>
-      <div class="skills">
-        <i class="" set font size and color></i>
-        <h3>JavaScript</h3>
-      </div>
-      <div class="skills">
-        <i class="" set font size and color></i>
-        <h3></h3>
       </div>
     </div>
-    </section> -->
-
-    <!-- <section id="portfolio-wrapper">
-      <div class="container">
-        <h1>My Portfolio</h1>
+        
+      <!-- <div class="container d-flex justify-content-xxl-around">
+        <div class="row">
+        </div>
       </div>
-      <div id="zero-gutters-portfolio-block-gallery">
+    </div>
+    </div> -->
+
+  <div class=h1>My Portfolio</h1>
+    <section id="portfolio-wrapper">
+      <div class="container">
+      </div>
+      <div class="row gallery centerGallery no-gutters">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <a class="portfolio-box" href="" target="blank">
+              <img class="img-fluid" src="../PortfolioProject/assets/Brtiney Spears 2.jpeg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Maternity Market: 
+                  </div>
+                  <div class="project-subname">
+                    An Online Exchange<br>Community For Families
+                  </div>
+                  <div class="project-desc">
+                    Worked closely with a team of three and a project deadline to create this full Angular CRUD app - an online community for Indianapolis families who need to buy or sell baby or maternity items<br>
+                    <br>- Angularfire2 user authentication
+                    <br>- Management of a Firebase database
+                    <br>- An easy-to-use interface.
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <a class="portfolio-box" href="http://likelihoodweb.herokuapp.com/" target="blank">
+              <img class="img-fluid" src="img/portfolio/liklihood.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Likelihood:
+                  </div>
+                  <div class="project-subname">
+                    A Humbling Probability App
+                  </div>
+                  <div class="project-desc">
+                    Conceptualized and built a single-page app that calculates the user's likelihood of being born in their part of the world in their birth year<br>
+                    <br>- AJAX calls to a World Population API
+                    <br>- Javascript with jQuery for user-interface and mathematical calculations
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <a class="portfolio-box" href="https://sunsays-f60a5.firebaseapp.com/" target="blank">
+              <img class="img-fluid" src="img/portfolio/sun.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                  Sun Says:
+                  </div>
+                  <div class="project-subname">
+                    An API Weather App
+                  </div>
+                  <div class="project-desc">
+                    Designed and built a cute and simple app for finding the current temperature of any US zip code and getting a hot tip for how to dress based on the current temperature of any US zip code<br>
+                    <br>- AJAX call to a Weater API
+                    <br>- Javascript with jQuery for<br>user-interface and phrase generation
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <a class="portfolio-box" href="https://github.com/BrandonSchaaf/JSFundamentals" target="blank">
+              <img class="img-fluid" src="img/portfolio/javascript.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Javascript Library:
+                  </div>
+                  <div class="project-subname">
+                    Essentials in Practice
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <a class="portfolio-box" href="https://codepen.io/brandonschaaf/pen/zdPZrK" target="blank">
+              <img class="img-fluid" src="img/portfolio/gary.png">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Gary Gregory:
+                  </div>
+                  <div class="project-subname">
+                    The Pure-CSS Ghost
+                  </div>
+                  <div class="project-desc">
+                    A CodePen creation using only CSS
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <a class="portfolio-box" href="https://thevcr-70bca.firebaseapp.com/index.html" target="blank">
+              <img class="img-fluid" src="img/portfolio/vcr.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    The VCR:
+                  </div>
+                  <div class="project-subname">
+                    A Static HTML/CSS Store
+                  </div>
+                  <div class="project-desc">
+                    A non-functional design and branding prototype for an online store that offers conversion of home media
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <a class="portfolio-box" href="http://www.knownostranger.com" target="blank">
+              <img class="img-fluid" src="img/portfolio/kns.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Know No Stranger:
+                  </div>
+                  <div class="project-subname">
+                    Experimental Theater
+                  </div>
+                  <div class="project-desc">
+                    A performing arts LLC that I co-founded and direct, where I developed and continue to sharpen my skills in<br>
+                    <br>- Design and fabrication
+                    <br>- Working with clients
+                    <br>- Leading teams
+                    <br>- Public speaking and performing 
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <a class="portfolio-box" href="http://www.brandonschaaf.com/" target="blank">
+              <img class="img-fluid" src="img/portfolio/dice.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Fine Art Portfolio:
+                  </div>
+                  <div class="project-subname">
+                    A Collection
+                  </div>
+                  <div class="project-desc">
+                    A selection of some<br>illustration and design work
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      <div class="zero-gutters-portfolio-block-gallery">
         <div class="col-lg-3 col-med-6 col-sm-6">
           <a class = "portfolio-project-square"
             href target="blank">
-            <img class ="img-fluid" src="" alt>          
+            <img class ="img-fluid" src="assets/Britney Spears 1.jpeg" alt>          
           <div class="portfolio-project-headline">
             <div class="portfolio-project-headline-summary">
               <div class="project-title">INSERT TITLE HERE</div>
@@ -290,14 +474,16 @@
             </div>
           </div>
         </div>
-        </a> -->
-<!-- Insert link to project and stylize thumbnail -->
-<!-- </section> -->
+        </a>
+    <!-- Insert link to project and stylize thumbnail -->
+    </section>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </body>
 </html>

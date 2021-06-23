@@ -2,20 +2,45 @@
     background-color: transparent;
 } */
 
-.my-name-navbar-brand {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: medium 500;
-  /* font-style: bold; */
-  color: white;
-  font-size: 18px;
-  letter-spacing: 1.5px;
-  padding-top: 0.45rem;
-  /* padding-left: 1rem; */
-  word-spacing: 0.3rem;
-  margin-left: -2em;
+/* .container {
+  margin-left: 100px !important;
+  margin-right: 100px !important;
+} */
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
 }
 
-.navbar {
+.bg-light {
+  background-color: transparent !important;
+}
+
+/* .container-fluid {
+  display: flex !important;
+  justify-content: space-between !important;
+  flex-direction: row !important;
+} */
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium 500;
+  /* font-style: bold; */
+  color: white !important;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  /* padding-top: 0.45rem; */
+  /* padding-left: 1rem; */
+  word-spacing: 0.3rem;
+  /* margin-left: -2em; */
+}
+
+#nav-over {
+  margin-left: auto;
+}
+
+/* .navbar {
   position: fixed;
   overflow: hidden;
   width: 100%;
@@ -26,16 +51,19 @@
 .navbar-nav {
   margin-left: auto;
   margin-right: -3em;
-}
+} */
 
-.navLink {
-  color: white;
+.nav-link {
+  color: white !important;
   font-size: 16px;
-  padding: 1rem;
+  /* padding: 1rem; */
   text-decoration: none;
   letter-spacing: 1.5px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: medium 500;
+  word-spacing: 10px !important;
+  /* word-spacing: 30px; */
+  /* ask taylor about word spacing issue. */
   /* font-style: bold; */
 }
 
