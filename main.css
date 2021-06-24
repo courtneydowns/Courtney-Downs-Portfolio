@@ -7,13 +7,14 @@
 @import "portfolio.css";
 @import "resume.css";
 @import "skillset.css";
-@import "responsive.css";
+/* @import "responsive.css"; */
+@import "paralasScrollingMethod.css";
 
-html {
+/* html {
   scroll-behavior: smooth;
 }
 
 body {
   max-width: 100%;
   overflow-x: hidden;
-}
+} */

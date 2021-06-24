@@ -1,9 +1,9 @@
-#skillset-wrapper {
-  height: 60vh;
+.skillset-wrapper {
+  height: 100vh;
 }
 
 .h1-my-skillset {
-  font-size: 24px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -14,7 +14,7 @@
   margin-right: auto; */
   /* width: 100px; */
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: medium 500;
   /* align-content: center;
   align-items: center; */
 }
@@ -49,10 +49,29 @@
 } */
 
 .skill-text {
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium 500;
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold 700;
   text-align: center;
+  /* letter-spacing: 1px; */
+}
+
+#skill-summary {
+  display: none;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Source Sans Pro", serif;
+  font-weight: 400;
+}
+
+#skill-html {
+  display: none;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Source Sans Pro", serif;
+  font-weight: 400;
 }
 
 .fab {
@@ -66,48 +85,3 @@
   display: flex;
   justify-content: center;
 }
-
-.fa-html5:hover {
-  color: #c5247e !important;
-}
-
-.fa-bootstrap:hover {
-  color: #c5247e !important;
-}
-
-.fa-edit:hover {
-  color: #c5247e !important;
-}
-
-.fa-js-square:hover {
-  color: #c5247e !important;
-}
-
-.fa-react:hover {
-  color: #c5247e !important;
-}
-
-.fa-node-js:hover {
-  color: #c5247e !important;
-}
-
-.fa-github:hover {
-  color: #c5247e !important;
-}
-
-.skill-text:hover {
-  color: #c5247e !important;
-}
-
-/* .button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium 500;
-  font-size: 14px;
-  background: white;
-  color: black;
-}
-
-.selected {
-  color: #c5247e;
-  background: white;
-} */

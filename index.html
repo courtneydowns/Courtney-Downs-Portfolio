@@ -11,21 +11,9 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alice&family=Amatic+SC:wght@700&family=Andika&family=Arvo:wght@700&family=Cinzel:wght@700&family=Fauna+One&family=Josefin+Sans&family=Lato&family=Libre+Baskerville:wght@700&family=Lustria&family=Montserrat:wght@500&family=Playfair+Display:wght@700&family=Pontano+Sans&family=Poppins&family=Quicksand:wght@500;700&family=Sacramento&family=Slabo+27px&family=Source+Sans+Pro&family=Stint+Ultra+Expanded&family=Ultra&family=Yeseva+One&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/547020429b.js"
       crossorigin="anonymous"
@@ -84,8 +72,10 @@
     <!-- <div class="hero"> -->
     <!-- <img src="../PortfolioProject/assets/background-header-original.jpeg" class="hero-image"> -->
     <section class="hero-background">
-      <div class="hero-content">
-        <img src="assets/LogoWhite.png" class="logo-image" />
+      <div class="container">
+        <div class="hero-content">
+          <img src="assets/LogoWhite.png" class="logo-image" />
+        </div>
       </div>
     </section>
 
@@ -216,54 +206,56 @@
 
     <!-- SKILLSET -->
     <h1 class="h1-my-skillset">My Skill Set</h1>
-    <div id=skillset-wrapper>
+    <div class=skillset-wrapper>
     <div class="container d-flex justify-content-evenly">
         <div class="row d-flex flex-nowrap">
           <div class="col-sm">
-            <div id="skills-div">
-            <i class="fab fa-html5" style="font-size: 60px"></i>
-              <p class="skill-text">HTML & CSS</p>    
+            <div id="skills-div" onclick="skillHTML()">
+              <i class="fab fa-html5" id="fa-html5" style="font-size: 60px"></i>
+              <p class="skill-text" id="html-css">HTML & CSS</p> 
+              <p id="skill-html">text. test. test.</p>   
             </div>
           </div>
           <div class="col-sm">
-            <div id="skills-div">
-              <i class="fab fa-bootstrap" style="font-size: 60px"></i>
-              <p class="skill-text">BOOTSTRAP</p>
+            <div id="skills-div" onclick="skillBootstrap()">
+              <i class="fab fa-bootstrap" id="fa-bootstrap" style="font-size: 60px"></i>
+              <p class="skill-text" id="bootstrap-5">BOOTSTRAP</p>
+              <p id="skill-bootstrap">text. test. test.</p>
             </div>
           </div>
         <div class="col-sm">
-          <div id="skills-div">
-            <i class="far fa-edit" style="font-size: 60px"></i>
-            <p class="skill-text">WIREFRAMING</p>
-            <p class="skill-summary">text. test. test.</p>
+          <div id="skills-div" onclick="skillWireframe()">
+            <i class="far fa-edit" id="fa-edit" style="font-size: 60px"></i>
+            <p class="skill-text" id="wire-frame">WIREFRAMING</p>
+            <p id="skill-wireframe">text. test. test.</p>
           </div>
         </div>
         <div class="col-sm">
-          <div id="skills-div">
-           <i class="fab fa-js-square" style="font-size: 60px"></i>
-            <p class="skill-text">JAVASCRIPT</p>
-            <p class="skill-summary">text. test. test.</p>
+          <div id="skills-div" onclick="skillJavascript()">
+           <i class="fab fa-js-square" id="js-square" style="font-size: 60px"></i>
+            <p class="skill-text" id="java-script">JAVASCRIPT</p>
+            <p class="skill-js">text. test. test.</p>
           </div>
         </div>
         <div class="col-sm">
-          <div id="skills-div">
-            <i class="fab fa-react" style="font-size: 60px"></i>
-            <p class="skill-text">REACT</p>
-            <p class="skill-summary">text. test. test.</p>
+          <div id="skills-div" onclick="skillReact()">
+            <i class="fab fa-react" id="fa-react" style="font-size: 60px"></i>
+            <p class="skill-text" id="re-act">REACT</p>
+            <p class="skill-react">text. test. test.</p>
           </div>
         </div>
         <div class="col-sm">
-          <div id="skills-div">
-            <i class="fab fa-node-js" style="font-size: 60px"></i>
-            <p class="skill-text">NODE.JS</p>
-            <p class="skill-summary">text. test. test.</p>
+          <div id="skills-div" onclick="skillNode()">
+            <i class="fab fa-node-js" id="fanodejs" style="font-size: 60px"></i>
+            <p class="skill-text" id="node-js">NODE.JS</p>
+            <p class="skill-node">text. test. test.</p>
           </div>
         </div>
         <div class="col-sm">
-          <div id="skills-div">
-           <i class="fab fa-github" style="font-size: 60px"></i>
-            <p class="skill-text">GITHUB</p>
-            <p class="skill-summary">text. test. test.</p>
+          <div id="skills-div" onclick="skillGit()">
+           <i class="fab fa-github" id="fagithub" style="font-size: 60px"></i>
+            <p class="skill-text" id="git-hub">GITHUB</p>
+            <p class="skill-git">text. test. test.</p>
           </div> 
         </div>
       </div>
@@ -277,206 +269,11 @@
     </div>
     </div> -->
 
-  <div class=h1>My Portfolio</h1>
-    <section id="portfolio-wrapper">
-      <div class="container">
-      </div>
-      <div class="row gallery centerGallery no-gutters">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a class="portfolio-box" href="" target="blank">
-              <img class="img-fluid" src="../PortfolioProject/assets/Brtiney Spears 2.jpeg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Maternity Market: 
-                  </div>
-                  <div class="project-subname">
-                    An Online Exchange<br>Community For Families
-                  </div>
-                  <div class="project-desc">
-                    Worked closely with a team of three and a project deadline to create this full Angular CRUD app - an online community for Indianapolis families who need to buy or sell baby or maternity items<br>
-                    <br>- Angularfire2 user authentication
-                    <br>- Management of a Firebase database
-                    <br>- An easy-to-use interface.
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a class="portfolio-box" href="http://likelihoodweb.herokuapp.com/" target="blank">
-              <img class="img-fluid" src="img/portfolio/liklihood.png" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Likelihood:
-                  </div>
-                  <div class="project-subname">
-                    A Humbling Probability App
-                  </div>
-                  <div class="project-desc">
-                    Conceptualized and built a single-page app that calculates the user's likelihood of being born in their part of the world in their birth year<br>
-                    <br>- AJAX calls to a World Population API
-                    <br>- Javascript with jQuery for user-interface and mathematical calculations
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a class="portfolio-box" href="https://sunsays-f60a5.firebaseapp.com/" target="blank">
-              <img class="img-fluid" src="img/portfolio/sun.png" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                  Sun Says:
-                  </div>
-                  <div class="project-subname">
-                    An API Weather App
-                  </div>
-                  <div class="project-desc">
-                    Designed and built a cute and simple app for finding the current temperature of any US zip code and getting a hot tip for how to dress based on the current temperature of any US zip code<br>
-                    <br>- AJAX call to a Weater API
-                    <br>- Javascript with jQuery for<br>user-interface and phrase generation
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a class="portfolio-box" href="https://github.com/BrandonSchaaf/JSFundamentals" target="blank">
-              <img class="img-fluid" src="img/portfolio/javascript.png" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Javascript Library:
-                  </div>
-                  <div class="project-subname">
-                    Essentials in Practice
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a class="portfolio-box" href="https://codepen.io/brandonschaaf/pen/zdPZrK" target="blank">
-              <img class="img-fluid" src="img/portfolio/gary.png">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Gary Gregory:
-                  </div>
-                  <div class="project-subname">
-                    The Pure-CSS Ghost
-                  </div>
-                  <div class="project-desc">
-                    A CodePen creation using only CSS
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a class="portfolio-box" href="https://thevcr-70bca.firebaseapp.com/index.html" target="blank">
-              <img class="img-fluid" src="img/portfolio/vcr.png" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    The VCR:
-                  </div>
-                  <div class="project-subname">
-                    A Static HTML/CSS Store
-                  </div>
-                  <div class="project-desc">
-                    A non-functional design and branding prototype for an online store that offers conversion of home media
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a class="portfolio-box" href="http://www.knownostranger.com" target="blank">
-              <img class="img-fluid" src="img/portfolio/kns.png" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Know No Stranger:
-                  </div>
-                  <div class="project-subname">
-                    Experimental Theater
-                  </div>
-                  <div class="project-desc">
-                    A performing arts LLC that I co-founded and direct, where I developed and continue to sharpen my skills in<br>
-                    <br>- Design and fabrication
-                    <br>- Working with clients
-                    <br>- Leading teams
-                    <br>- Public speaking and performing 
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a class="portfolio-box" href="http://www.brandonschaaf.com/" target="blank">
-              <img class="img-fluid" src="img/portfolio/dice.png" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Fine Art Portfolio:
-                  </div>
-                  <div class="project-subname">
-                    A Collection
-                  </div>
-                  <div class="project-desc">
-                    A selection of some<br>illustration and design work
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      <div class="zero-gutters-portfolio-block-gallery">
-        <div class="col-lg-3 col-med-6 col-sm-6">
-          <a class = "portfolio-project-square"
-            href target="blank">
-            <img class ="img-fluid" src="assets/Britney Spears 1.jpeg" alt>          
-          <div class="portfolio-project-headline">
-            <div class="portfolio-project-headline-summary">
-              <div class="project-title">INSERT TITLE HERE</div>
-              <div class="project-tagline">INSERT TAGLINE HERE</div>
-              <div class="project-description">INSERT DESCRIPTION HERE</div>
-            </div>
-          </div>
-        </div>
-        </a>
-          <div class="col-lg-3- col-md-6 col-sm-6">
-            <a class = "portfolio-project-square"
-            href target="blank">
-            <img class ="img-fluid" src="" alt>          
-          <div class="portfolio-project-headline">
-            <div class="portfolio-project-headline-summary">
-              <div class="project-title">INSERT TITLE HERE</div>
-              <div class="project-tagline">INSERT TAGLINE HERE</div>
-              <div class="project-description">INSERT DESCRIPTION HERE</div>
-            </div>
-          </div>
-        </div>
-        </a>
-            <div class="col-lg-3- col-md-6 col-sm-6">
-              <a class = "portfolio-project-square"
-            href target="blank">
-            <img class ="img-fluid" src="" alt>          
-          <div class="portfolio-project-headline">
-            <div class="portfolio-project-headline-summary">
-              <div class="project-title">INSERT TITLE HERE</div>
-              <div class="project-tagline">INSERT TAGLINE HERE</div>
-              <div class="project-description">INSERT DESCRIPTION HERE</div>
-            </div>
-          </div>
-        </div>
-        </a>
+    <!-- My Portfolio -->
+
+    
+  
     <!-- Insert link to project and stylize thumbnail -->
-    </section>
 
 
     <script
