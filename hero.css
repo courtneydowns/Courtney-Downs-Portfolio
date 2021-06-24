@@ -1,20 +1,22 @@
-.hero-background {
-  background: url(../PortfolioProject/assets/background.jpeg) fixed;
-  background-size: cover;
-  height: 100vh;
-}
+/* .background {
+background-image: url('./assets/FinalBackgroundImageLarge.jpeg');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+} */
 
-.hero-content {
+
+/* .hero-content {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 6%;
   padding-top: 8%;
-}
+} */
 
-.logo-image {
+/* .logo-image {
   height: auto;
-  width: 700px;
-  /* padding-bottom: 6%;
-  padding-top: 10%; */
-}
+  width: 100%;
+  max-width: 400px;
+  background-image: url('./assets/LogoWhite.png');
+}  */
