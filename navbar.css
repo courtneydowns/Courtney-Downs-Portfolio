@@ -21,7 +21,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: medium 500;
   /* font-style: bold; */
-  color: white !important;
+  color: white;
   font-size: 18px;
   letter-spacing: 1.5px;
   /* padding-top: 0.45rem; */
@@ -52,7 +52,7 @@
 } */
 
 .nav-link {
-  color: white !important;
+  color: white;
   font-size: 16px;
   /* padding: 1rem; */
   text-decoration: none;

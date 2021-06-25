@@ -216,7 +216,7 @@ function skillBootstrap() {
   boot_html.style.display = "none";
   bootstrap.style.color = "";
   fabootstrap.style.color = "";
-  if (html.style.display === "none") { //<<<<< html.style needs to be boot_html.style
+  if (boot_html.style.display === "none") { //<<<<< html.style needs to be boot_html.style
     boot_html.style.display = "block";
     fabootstrap.style.color = "#c5247e";
     bootstrap.style.color = "#c5247e";
@@ -236,7 +236,7 @@ function skillWireframe() {
   wireframe_html.style.display = "none";
   wireframe.style.color = "";
   faedit.style.color = "";
-  if (html.style.display === "none") {
+  if (wireframe_html.style.display === "none") {
     wireframe_html.style.display = "block";
     faedit.style.color = "#c5247e";
     wireframe.style.color = "#c5247e";
@@ -250,15 +250,15 @@ function skillWireframe() {
 // JAVASCRIPT
 function skillJavascript() {
   clearIconClicks();
-  let javascript_html = document.getElementById("skill-js");
+  let javascript_html = document.querySelector(".skill-js");
   let javascript = document.getElementById("java-script");
-  let fajssquare = document.getElementById("fa-js-square");
+  let fajssquare = document.querySelector(".fa-js-square");
   javascript_html.style.display = "none";
   javascript.style.color = "";
   fajssquare.style.color = "";
-  if (html.style.display === "none") {
+  if (javascript_html.style.display === "none") {
     javascript_html.style.display = "block";
-    jssquare.style.color = "#c5247e";
+    fajssquare.style.color = "#c5247e";
     javascript.style.color = "#c5247e";
   } else {
     javascript_html.style.display = "none";
@@ -269,13 +269,13 @@ function skillJavascript() {
 
 function skillReact() {
   clearIconClicks();
-  let react_html = document.getElementById("skill-react");
+  let react_html = document.querySelector(".skill-react");
   let react = document.getElementById("re-act");
   let fareact = document.getElementById("fa-react");
   react_html.style.display = "none";
   react.style.color = "";
   fareact.style.color = "";
-  if (html.style.display === "none") {
+  if (react_html.style.display === "none") {
     react_html.style.display = "block";
     fareact.style.color = "#c5247e";
     react.style.color = "#c5247e";
@@ -289,13 +289,13 @@ function skillReact() {
 // NODE.JS
 function skillNode() {
   clearIconClicks();
-  let node_html = document.getElementById("skill-node");
+  let node_html = document.querySelector(".skill-node");
   let node = document.getElementById("node-js");
-  let fanodejs = document.getElementById("fa-node-js");
+  let fanodejs = document.querySelector(".fa-node-js");
   node_html.style.display = "none";
   node.style.color = "";
   fanodejs.style.color = "";
-  if (html.style.display === "none") {
+  if (node_html.style.display === "none") {
     node_html.style.display = "block";
     fanodejs.style.color = "#c5247e";
     node.style.color = "#c5247e";
@@ -308,16 +308,16 @@ function skillNode() {
 // GITHUB
 function skillGit() {
   clearIconClicks();
-  let git_html = document.getElementById("skill-git");
+  let git_html = document.querySelector(".skill-git");
   let git = document.getElementById("git-hub");
-  let fagithub = document.getElementById("fa-github");
-  git_htmlstyle.display = "none";
+  let fagithub = document.querySelector(".fa-github");
+  git_html.style.display = "none";
   git.style.color = "";
   fagithub.style.color = "";
-  if (html.style.display === "none") {
+  if (git_html.style.display === "none") {
     git_html.style.display = "block";
     fagithub.style.color = "#c5247e";
-    github.style.color = "#c5247e";
+    git.style.color = "#c5247e";
   } else {
     git_html.style.display = "none";
     git.style.color = "#000000";
@@ -353,15 +353,15 @@ function clearIconClicks(){
   faedit.style.color = "";
 
   //JAVASCRIPT
-  let javascript_html = document.getElementById("skill-js");
+  let javascript_html = document.querySelector(".skill-js");
   let javascript = document.getElementById("java-script");
-  let fajssquare = document.getElementById("fa-js-square");
+  let fajssquare = document.querySelector(".fa-js-square");
   javascript_html.style.display = "none";
   javascript.style.color = "";
   fajssquare.style.color = "";
 
   //REACT
-  let react_html = document.getElementById("skill-react");
+  let react_html = document.querySelector(".skill-react");
   let react = document.getElementById("re-act");
   let fareact = document.getElementById("fa-react");
   react_html.style.display = "none";
@@ -369,18 +369,18 @@ function clearIconClicks(){
   fareact.style.color = "";
 
   //NODE.JS
-  let node_html = document.getElementById("skill-node");
+  let node_html = document.querySelector(".skill-node");
   let node = document.getElementById("node-js");
-  let fanodejs = document.getElementById("fa-node-js");
+  let fanodejs = document.querySelector(".fa-node-js");
   node_html.style.display = "none";
   node.style.color = "";
   fanodejs.style.color = "";
 
   //GITHUB
-  let git_html = document.getElementById("skill-git");
+  let git_html = document.querySelector(".skill-git");
   let git = document.getElementById("git-hub");
-  let fagithub = document.getElementById("fa-github");
-  git_htmlstyle.display = "none";
+  let fagithub = document.querySelector(".fa-github");
+  git_html.style.display = "none";
   git.style.color = "";
   fagithub.style.color = "";
 }
