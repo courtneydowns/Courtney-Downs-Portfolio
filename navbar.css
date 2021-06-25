@@ -6,11 +6,15 @@
   margin-left: 100px !important;
   margin-right: 100px !important;
 } */
-.navbar {
+.navbar-dark {
   position: fixed;
   overflow: hidden;
   width: 100%;
   z-index: 1;
+}
+
+#navbarNav {
+  margin-right: 3rem;
 }
 
 .bg-light {
@@ -18,9 +22,10 @@
 }
 
 .navbar-brand {
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium 500;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
   /* font-style: bold; */
+  margin-left: 3rem;
   color: white;
   font-size: 18px;
   letter-spacing: 1.5px;
@@ -54,12 +59,12 @@
 .nav-link {
   color: white;
   font-size: 16px;
-  /* padding: 1rem; */
+  padding: 1rem;
   text-decoration: none;
   letter-spacing: 1.5px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium 500;
-  word-spacing: 10px !important;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  /* word-spacing: 20px !important; */
   /* word-spacing: 30px; */
   /* ask taylor about word spacing issue. */
   /* font-style: bold; */

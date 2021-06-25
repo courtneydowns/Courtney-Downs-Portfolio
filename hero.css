@@ -11,10 +11,10 @@
 /* MEDIA QUERY 1000 */
 
 #logo {
-  max-width: 300px;
+  max-width: 800px;
   position: absolute;
-  left: 35%;
-  top: 20%;
+  left: 30%;
+  top: 13%;
 }
 
 /* .hero-content {
