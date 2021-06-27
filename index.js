@@ -384,3 +384,4 @@ function clearIconClicks(){
   git.style.color = "";
   fagithub.style.color = "";
 }
+
