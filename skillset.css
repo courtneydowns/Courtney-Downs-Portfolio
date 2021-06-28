@@ -8,7 +8,7 @@
   /* margin-left: auto;
   margin-right: auto; */
   /* width: 100px; */
-  font-family: "Alegreya", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 32px;
   /* align-content: center;
@@ -46,7 +46,7 @@
 
 .skill-text {
   font-size: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   text-align: center;
   /* letter-spacing: 1px; */
@@ -66,7 +66,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -75,7 +75,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -84,7 +84,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -93,7 +93,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -102,7 +102,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400; 
 }
 
@@ -111,7 +111,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -120,7 +120,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -129,7 +129,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -138,7 +138,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -147,7 +147,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -156,7 +156,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -165,7 +165,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -174,7 +174,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -183,7 +183,7 @@
   text-align: center;
   justify-content: center;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -192,9 +192,35 @@
   color: #c5247e;
 } */
 
+.html5css:hover {
+  color: #c5247e;
+}
+
 .bootstrap:hover {
   color: #c5247e;
 }
+
+.wireframe:hover {
+    color: #c5247e;
+  }
+
+.javascript:hover {
+  color: #c5247e;
+}
+
+.react:hover {
+  color: #c5247e;
+}
+
+.node:hover {
+  color: #c5247e;
+}
+
+.git:hover {
+  color: #c5247e;
+}
+
+
 
 .fab {
   padding-bottom: 21.875%;

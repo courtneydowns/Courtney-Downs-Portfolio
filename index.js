@@ -382,6 +382,4 @@ function clearIconClicks(){
   let fagithub = document.querySelector(".fa-github");
   git_html.style.display = "none";
   git.style.color = "";
-  fagithub.style.color = "";
-}
-
+  fagithub.style.color = "";}

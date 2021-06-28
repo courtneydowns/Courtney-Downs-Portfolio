@@ -4,11 +4,10 @@
 @import "about.css";
 @import "hero.css";
 @import "credo.css";
-@import "portfolio.css";
+@import "projects.css";
 @import "resume.css";
 @import "skillset.css";
 /* @import "responsive.css"; */
-@import "paralasScrollingMethod.css";
 
 /* html {
   scroll-behavior: smooth;

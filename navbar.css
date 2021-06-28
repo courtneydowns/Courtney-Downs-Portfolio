@@ -7,7 +7,7 @@
   margin-right: 100px !important;
 } */
 .navbar-dark {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   width: 100%;
   z-index: 1;

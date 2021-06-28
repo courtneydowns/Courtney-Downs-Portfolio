@@ -1,52 +1,125 @@
-body {background-color: #a4a4a4;}
-.col4 {width: 33.33333333%; float: left; position: relative;}
-.transition {-webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transition: all .5s ease;  transition: all .5s ease;}
-body .container {width: 70%; margin: 0 auto;}
-.row1 .item, .row2 .item, .row3 .item, .row4 .item {margin: 10px 0;}
-/* active on focus for accessibility tab navigation */
+.portfolio {
+    margin-top: 100px;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    text-align: center;
+}
 
-.row1 .item {padding: 0;}
-.row1 .item img {padding: 0 !important; display: block; max-width: 100%; height: auto;}
-.row1 a:hover .item img, .row1 a:focus .item img {opacity: 0.8;}
-.row1 h4, .row1 p {-webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transition: all .5s ease;  transition: all .5s ease;} 
-.row1 a .item h4 {font-family: 'Playfair Display', serif; font-size: 16px; position: absolute; color:#fff; text-transform: uppercase; letter-spacing: 2px; position: absolute; top:42%; left:0; right:0; margin:0 auto; text-align: center; opacity: 0;}
-.row1 a:hover .item h4, .row1 a:focus .item h4 {opacity: 1;}
-.row1 a .item p {font-family: 'Open Source Sans', sans-serif; font-size: 8px; position: absolute; color:#fff; text-transform: uppercase; letter-spacing: 2px; position: absolute; top:52%; left:0; right:0; margin:0 auto; text-align: center; opacity: 0;}
-.row1 a:hover .item p, .row1 a:focus .item p {opacity: 1;}
+.col-sm-4 {
+    width: 33.33333333%; 
+    float: left; 
+    position: relative;}
+.transition {
+    -webkit-transition: all .5s ease; 
+    -moz-transition: all .5s ease; 
+    -o-transition: all .5s ease;  
+    transition: all .5s ease;}
 
-.row2 .item {padding: 0;}
-.row2 .item img {padding: 0 !important; display: block; max-width: 100%; height: auto;}
-.row2 a:hover .item img, .row2 a:focus .item img {opacity: 0.9; -webkit-transform: scale(0.95); transform: scale(0.95);}
-.row2 h4, .row2 p, .row2 span {-webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transition: all .5s ease;  transition: all .5s ease;} 
-.row2 a .item h4 {font-family: 'Playfair Display', serif; font-size: 16px; position: absolute; color:#fff; text-transform: uppercase; letter-spacing: 2px; position: absolute; top:42%; left:0; right:0; margin:0 auto; text-align: center; -webkit-filter: blur(5px); filter: blur(5px); opacity: 0;}
-.row2 a:hover .item h4, .row2 a:focus .item h4 {-webkit-filter: blur(0px); filter: blur(0px); opacity: 1;}
-.row2 a .item p {font-family: 'Open Source Sans', sans-serif; font-size: 8px; position: absolute; color:#fff; text-transform: uppercase; letter-spacing: 2px; position: absolute; top:53%; left:0; right:0; margin:0 auto; text-align: center; opacity: 0;}
-.row2 a:hover .item p, .row2 a:focus .item p {opacity: 1;}
+body .container {
+    width: 70%; 
+    margin: 0 auto;}
 
-.row3 .item {padding: 0;}
-.row3 .item img {padding: 0 !important; display: block; max-width: 100%; height: auto; outline: transparent solid 2px; outline-offset: 0px;}
-.row3 a:hover .item img, .row3 a:focus .item img {opacity: 0.8; outline: #fff solid 2px; outline-offset: -10px;}
-.row3 h4, .row3 p {-webkit-transition: all .5s ease; -moz-transition: all .5s ease; -o-transition: all .5s ease;  transition: all .5s ease;} 
-.row3 a .item h4 {font-family: 'Playfair Display', serif; font-size: 16px; position: absolute; color:#fff; text-transform: uppercase; letter-spacing: 2px; position: absolute; top:42%; left:0; right:0; margin:0 auto; text-align: center; opacity: 0;}
-.row3 a:hover .item h4, .row3 a:focus .item h4 {opacity: 1;}
-.row3 a .item p {font-family: 'Open Source Sans', sans-serif; font-size: 8px; position: absolute; color:#fff; text-transform: uppercase; letter-spacing: 2px; position: absolute; top:52%; left:0; right:0; margin:0 auto; text-align: center; opacity: 0;}
-.row3 a:hover .item p, .row3 a:focus .item p {opacity: 1;}
+.row1 .item {
+    padding: 0;
+}
+.row1 .item img {
+    padding: 0 !important; display: block; max-width: 100%; height: auto;
+}
+.row1 a:hover .item img, .row1 a:focus .item img {
+    opacity: .1;
+}
+.row1 h4, .row1 p {
+    -webkit-transition: all .5s ease; 
+    -moz-transition: all .5s ease; 
+    -o-transition: all .5s ease;  transition: all .5s ease;} 
+.row1 a .item h4 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 24px; 
+    position: absolute; 
+    color:#fff; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    position: absolute; 
+    top:42%; 
+    left:0; 
+    right:0; 
+    margin:0 auto; 
+    text-align: center; 
+    opacity: 0;
+}
+.row1 a:hover .item h4, .row1 a:focus .item h4 {
+    opacity: 1;}
+.row1 a .item p {
+    font-family: 'Open Source Sans', sans-serif; 
+    font-size: 12px; 
+    position: absolute; 
+    color:#fff; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    position: absolute; 
+    top:52%; 
+    left:0; 
+    right:0; 
+    margin:0 auto; 
+    text-align: center; 
+    opacity: 0;}
 
+.row1 a:hover .item p, .row1 a:focus .item p {
+    opacity: 1;}
 
-.row4 .item {padding: 0;}
-.row4 .item img {padding: 0 !important; display: block; max-width: 100%; height: auto;}
-.row4 a:hover .item img, .row4 a:focus .item img {opacity: 0.8;}
-.row4 h4, .row4 p {-webkit-transition: all .5s ease-out; -moz-transition: all .5s ease-out; -o-transition: all .5s ease-out;  transition: all .5s ease-out;} 
-.row4 a .item h4 {font-family: 'Playfair Display', serif; font-size: 16px; position: absolute; color:#fff; text-transform: uppercase; letter-spacing: 2px; background-color: #b5b5b5; padding: 5px 10px; position: absolute; bottom:10%; left: 0%; opacity: 0;}
-.row4 a:hover .item h4, .row4 a:focus .item h4  {opacity: 1; left: 10%;}
-.row4 a .item p {font-family: 'Open Source Sans', sans-serif; font-size: 8px; position: absolute; color:#fff; text-transform: uppercase; letter-spacing: 2px; background-color: #b5b5b5; padding: 5px 10px; position: absolute; bottom:7%; left: 0%; opacity: 0;}
-.row4 a:hover .item p, .row4 a:focus .item p {opacity: 1; left: 10%;}
+.row2 .item {
+    padding: 0;}
+.row2 .item img {
+    padding: 0 !important; 
+    display: block; 
+    max-width: 100%; 
+    height: auto;}
+.row2 a:hover .item img, .row2 a:focus .item img {
+    opacity: .1;}
+.row2 h4, .row2 p {
+    -webkit-transition: all .5s ease; 
+    -moz-transition: all .5s ease; 
+    -o-transition: all .5s ease;  
+    transition: all .5s ease;} 
+.row2 a .item h4 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 24px; 
+    position: absolute; 
+    color:#fff; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    position: absolute; 
+    top:42%; 
+    left:0; 
+    right:0; 
+    margin:0 auto; 
+    text-align: center; 
+    opacity: 0;}
+.row2 a:hover .item h4, .row2 a:focus .item h4 {
+    opacity: 1;}
+.row2 a .item p {
+    font-family: 'Open Source Sans', sans-serif; 
+    font-size: 12px; 
+    position: absolute; 
+    color:#fff; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    position: absolute; 
+    top:52%; 
+    left:0; 
+    right:0; 
+    margin:0 auto; 
+    text-align: center; 
+    opacity: 0;}
+.row2 a:hover .item p, .row2 a:focus .item p {
+    opacity: 1;}
+
 
 @media screen and (max-width: 991px) {
-.col4 {width: 50%;}
+.col-sm-4 {width: 50%;}
 .row4 a .item h4 {font-size: 13px;}
 }   
 
 @media screen and (max-width: 580px) {
-.col4 {width: 100%;}
+.col-sm-4 {width: 100%;}
 } 
