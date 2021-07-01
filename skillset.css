@@ -133,8 +133,17 @@
     font-weight: 400;
 }
 
+#skill-wireframe {
+  display: none;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
 .skill-js {
-  display: block;
+  display: none;
   text-align: center;
   justify-content: center;
   font-size: 18px;
@@ -152,7 +161,7 @@
 }
 
 .skill-react {
-  display: block;
+  display: none;
   text-align: center;
   justify-content: center;
   font-size: 18px;
@@ -170,7 +179,7 @@
 }
 
 .skill-node {
-  display: block;
+  display: none;
   text-align: center;
   justify-content: center;
   font-size: 18px;
@@ -188,7 +197,7 @@
 }
 
 .skill-git {
-  display: block;
+  display: none;
   text-align: center;
   justify-content: center;
   font-size: 18px;
