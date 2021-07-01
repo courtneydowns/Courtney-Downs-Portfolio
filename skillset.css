@@ -124,6 +124,15 @@
   font-weight: 400;
 }
 
+#skill-bootstrap {
+    display: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+}
+
 .skill-js {
   display: block;
   text-align: center;
