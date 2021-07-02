@@ -1,3 +1,5 @@
-/* #divider-image {
-    width: auto;
-} */
+#overlay-offset {
+    position: absolute;
+    width: 100%;
+    margin-top: 59%;
+}
