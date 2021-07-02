@@ -1,20 +1,53 @@
-#logo {
+/* #logo {
   max-width: 400px;
   position: absolute;
   z-index: 1;
   left: 40%;
   top: 25%;
+} */
+
+/* Media Queries */
+
+@media (min-width: 576px) {...}
+
+@media (min-width: 768px) {...}
+
+@media (min-width: 992px) {...}
+
+@media (min-width: 1200px) {...}
+
+@media (min-width: 1400px) {...}
+
+@media (max-width: 575.98px) {...}
+
+@media (max-width: 767.98px) {...}
+
+@media all and (max-width: 991.98px) {
+  #logo {
+    /* margin-top: 30%;
+    position: relative; */
+    transform:translateY(28%)
+  }
+}
+
+@media all and (max-width: 1399.98px) {
+  #logo {
+    /* margin-top: 30%;
+    position: relative; */
+    transform:translateY(25%)
+  }
 }
 
 
 
-/* MEDIA QUERY 1000 */
-
 #logo {
-  max-width: 800px;
+  /* max-width: 800px; */
+  max-width: 40%;
   position: absolute;
   left: 30%;
-  top: 13%;
+  margin-top: 7%;
+  /* object-fit: cover;
+  object-position: center; */
 }
 
 /* .hero-content {

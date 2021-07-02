@@ -384,3 +384,9 @@ function clearIconClicks() {
   git.style.color = "";
   fagithub.style.color = "";
 }
+
+window.onbeforeunload = () => {
+  for (const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
