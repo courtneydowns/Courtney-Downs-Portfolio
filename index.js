@@ -390,3 +390,9 @@ window.onbeforeunload = () => {
     form.reset();
   }
 }
+
+//RESUME DOWNLOAD
+
+function download() {
+  window.open("CourtneyDownsResume.pdf", "_blank");
+}

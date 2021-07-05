@@ -1,8 +1,56 @@
 #fs-frm-inputs {
-    font-family: 'Open Sans Source', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 #contact-offset {
-    position: absolute;
-    margin-top: 30%;
+    position: relative;
+    margin-top: 29%;
+}
+
+/* .form {
+    position: relative;
+} */
+
+.resume-icon-button {
+position: relative;
+}
+
+.image {
+    /* position:absolute; */
+    /* width: 110px;
+    height: 125px; */
+    width: 130px;
+    height: 145px;
+    margin-left: 900px;
+    margin-top: 50px;
+
+}
+
+/* .btn-white {
+    background-color: white;
+    border-color: transparent;
+    color: black;
+}
+
+.btn-lg {
+    padding: 15px 30px !important;
+    display: inline-block;
+}
+
+.btn button {
+    font-family: 'Open Sans Source', sans-serif !important; */
+    /* display: block;
+    margin-left: 100px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* font-size: 14px;
+    letter-spacing: 1.5px;
+    text-decoration: none !important;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    vertical-align: middle; */
+
 }
