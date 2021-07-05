@@ -8,7 +8,16 @@
 @import "contact.css";
 @import "skillset.css";
 @import "dividerImage.css";
+@import "footer.css";
 
+body {
+  height: 100%;
+  padding-bottom: 80px;
+}
+
+/* main {
+  height: 100%;
+} */
 
 /* html {
   scroll-behavior: smooth;

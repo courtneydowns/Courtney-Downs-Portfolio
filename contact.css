@@ -3,6 +3,6 @@
 }
 
 #contact-offset {
-    position: relative;
-    margin-top: 86%;
+    position: absolute;
+    margin-top: 30%;
 }
