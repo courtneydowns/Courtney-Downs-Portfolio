@@ -31,26 +31,32 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
 }
 
-.fa-github {
-font-size: 26px;
+#fa-github {
+  font-size: 40px;
   color: #c5247e;
-  margin-left: 75px;
-  padding-top: 30px;
+  align-content: center;
+  /* margin-left: 80px; */
+  padding-top: 10px;
 }
 
 #fa-linkedin {
 font-size: 40px;
   color: #c5247e;
-  margin-left: 75px;
+  /* margin-left: 80px; */
+  align-content: center;
+  padding-top: 10px;
 }
 
 .resume-image {
-  height: 50px;
+  height: 60px;
   width: 50px;
   margin-bottom: 1.25em;
-  margin-left: 75px;
+  align-content: center;
+  padding-top: 10px;
+  /* margin-left: 80px; */
 }
 
 /* .section-padding {

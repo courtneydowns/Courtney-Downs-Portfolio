@@ -9,7 +9,6 @@
 @import "skillset.css";
 /* @import "dividerImage.css"; */
 @import "footer.css";
-@import "mediaQueries.css";
 
 body {
   height: 100%;
@@ -20,14 +19,14 @@ body {
   height: 100%;
 } */
 
-/* html {
+body {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   max-width: 100%;
   overflow-x: hidden;
-} */
+} */ 
 
 /* @media (min-width: 576px) {...}
 

@@ -64,6 +64,7 @@ body .container {
     position: absolute; 
     color:#fff; 
     text-transform: uppercase; 
+    padding-top: 3em;
     letter-spacing: 2px; 
     position: absolute; 
     top:52%; 
