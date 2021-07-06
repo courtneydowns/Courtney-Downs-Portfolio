@@ -1,28 +1,28 @@
 @media only screen and (max-width: 768px) {
   .body {
     height: auto;
-    width: 100vw;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 280px) {
   .body {
     height: auto;
-    width: 100vw;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 540px) {
   .body {
     height: auto;
-    width: 100vw;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .body {
     height: auto;
-    width: 100vw;
+    width: 100%;
   }
 }
 

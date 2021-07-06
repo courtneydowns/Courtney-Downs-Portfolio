@@ -1,5 +1,5 @@
 @import "variables.css";
-@import "mainContainer.css";
+/* @import "mainContainer.css"; */
 @import "navbar.css";
 @import "about.css";
 @import "hero.css";
@@ -7,8 +7,9 @@
 @import "projects.css";
 @import "contact.css";
 @import "skillset.css";
-@import "dividerImage.css";
+/* @import "dividerImage.css"; */
 @import "footer.css";
+@import "mediaQueries.css";
 
 body {
   height: 100%;

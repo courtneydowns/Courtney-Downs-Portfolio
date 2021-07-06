@@ -48,9 +48,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#portfolio-skills">PORTFOLIO</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#">RESUME</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#">CONTACT</a>
           </li>
@@ -73,35 +73,46 @@
       <h1 class="about-me-title">About Me</h1>
       <div class="row">
         <div class="col-md-4">
-          <p class="para"></p>
-          Boggarts lavender robes, Hermione Granger Fantastic Beasts and
-          Where to Find Them. Bee in your bonnet Hand of Glory elder wand,
-          spectacles House Cup Bertie Bott’s Every Flavor Beans
-          Impedimenta. Stunning spells tap-dancing spider Slytherin’s Heir
-          mewing kittens Remus Lupin. Palominos scarlet train black robes,
-          Metamorphimagus Niffler dead easy second bedroom. Padma and
-          Parvati Sorting Hat Minister of Magic blue turban remember my
-          last.
+          <p class="para">
+            Boggarts lavender robes, Hermione Granger Fantastic Beasts and
+            Where to Find Them. Bee in your bonnet Hand of Glory elder wand,
+            spectacles House Cup Bertie Bott’s Every Flavor Beans
+            Impedimenta. Stunning spells tap-dancing spider Slytherin’s Heir
+            mewing kittens Remus Lupin. Palominos scarlet train black robes,
+            Metamorphimagus Niffler dead easy second bedroom. Padma and
+            Parvati Sorting Hat Minister of Magic blue turban remember my
+            last.
+          </p>
         </div>
         <div class="col-md-4">
-          <p class="para"></p>
-          Half-giant jinxes peg-leg gillywater broken glasses large black
-          dog Great Hall. Nearly-Headless Nick now string them together,
-          and answer me this, which creature would you be unwilling to
-          kiss? Poltergeist sticking charm, troll umbrella stand flying
-          cars golden locket Lily Potter. Pumpkin juice Trevor wave your
-          wand out glass orbs, a Grim knitted hats. Stan Shunpike doe
-          patronus, suck his soul Muggle-Born large order of drills the
-          trace. Bred in captivity fell through the veil, quaffle blue
-          flame ickle diddykins Aragog. Yer a wizard, Harry Doxycide the
-          woes of Mrs. Weasley Goblet of Fire.
+          <p class="para">
+            Half-giant jinxes peg-leg gillywater broken glasses large black
+            dog Great Hall. Nearly-Headless Nick now string them together,
+            and answer me this, which creature would you be unwilling to
+            kiss? Poltergeist sticking charm, troll umbrella stand flying
+            cars golden locket Lily Potter. Pumpkin juice Trevor wave your
+            wand out glass orbs, a Grim knitted hats. Stan Shunpike doe
+            patronus, suck his soul Muggle-Born large order of drills the
+            trace. Bred in captivity fell through the veil, quaffle blue
+            flame ickle diddykins Aragog. Yer a wizard, Harry Doxycide the
+            woes of Mrs. Weasley Goblet of Fire.
+          </p>
         </div>
-        <div class="col-md-4">
-          <p class="para"></p>
-          Shameless self-promo with github and LinkedIn links and link to
-          portolio later on down page
+        <div class="col-md-4 final-para">
+          <p>
+            See my creations' code on
+            <br>
+            <i class="fab fa-github" id="fa-github"></i></p>
+          <p>Check out my experience on
+            <br>
+            <i class="fab fa-linkedin" id="fa-linkedin"></i></p>
+          <p>Download my resume
+            <br>
+            <img onclick="download();" style="cursor: pointer;" src="./assets/finalpinkresumeicon.svg" alt=""
+              class="resume-image"></p>
         </div>
       </div>
+    </div>
     </div>
     </div>
   </section>
@@ -185,7 +196,7 @@
   <hr />
 
   <!-- SKILLS -->
-  <div id="skills-section"></div>
+  <div id="section-skills"></div>
   <section class="container">
     <h1 class="h1-my-skillset">Skills</h1>
     <div class="row g-2">
@@ -245,6 +256,8 @@
 
   <hr />
   <!-- PORTFOLIO: -->
+  <div id="portfolio-skills"></div>
+  <div id="portfolio-container"></div>
   <div class="container-fluid">
     <div class="row">
 
@@ -385,9 +398,10 @@
 
       <!-- IMAGE DIVIDER WITH RESUME -->
 
-      <section id="overlay-offset">
-        <div class="card bg-dark text-white img-fluid">
-          <img src="./assets/Vers3TransparentImageDivider.png" class="card-img" alt="...">
+      <!-- <section id="overlay-offset">
+        <div class="card bg-dark text-white img-fluid" style="width: 100%;">
+          <img src="./assets/V5DividerFinalBackgroundImageLarge.jpeg
+          " class="card-img" alt="...">
           <div class="card-img-overlay">
             <h5 class="card-title" style="font-size: 38px;">Interested in getting to know more about me?</h5>
             <div class="form">
@@ -396,69 +410,67 @@
                     class="image"></p>
               </div>
             </div>
-            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content.
-              This content is a little bit longer.</p>
-            <p class="card-text">Last updated 3 mins ago</p> -->
           </div>
         </div>
       </section>
-    </div>
+    </div> -->
 
-    <!-- <section id="image-div">
+      <!-- <section id="image-div">
     <div id="divider-image">
       <img src="./assets/FINALBackgroundImageDivider.jpeg" alt="Image" id="bigger-image" /> -->
-    <!-- </div>
+      <!-- </div>
   </section> -->
 
-    <!-- Contact Me -->
-    <div class="row">
-      <section id="contact-offset">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <form action="https://formspree.io/f/mwkaqrol" method="POST">
-                <div class="control-group">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Your Name" id="name"
-                      style="font-family: 'Source Sans Pro', sans-serif;" required
-                      data-validation-required-message="Please enter your name" name="name" />
-                    <p class="help-block text-danger"></p>
+      <!-- Contact Me -->
+
+      <div class="row">
+        <section id="contact-offset">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <form action="https://formspree.io/f/mwkaqrol" method="POST">
+                  <div class="control-group">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Your Name" id="name"
+                        style="font-family: 'Source Sans Pro', sans-serif;" required
+                        data-validation-required-message="Please enter your name" name="name" />
+                      <p class="help-block text-danger"></p>
+                    </div>
                   </div>
-                </div>
-                <div class="forms">
-                  <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Your Email" id="email"
-                      style="font-family: 'Source Sans Pro', sans-serif;" required
-                      data-validation-required-message="Please enter your email" name="_replyto" />
-                    <p class="help-block text-danger"></p>
+                  <div class="forms">
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Your Email" id="email"
+                        style="font-family: 'Source Sans Pro', sans-serif;" required
+                        data-validation-required-message="Please enter your email" name="_replyto" />
+                      <p class="help-block text-danger"></p>
+                    </div>
                   </div>
-                </div>
-                <div class="control-group">
-                  <div class="form-group">
-                    <textarea class="form-control" rows="7" placeholder="Your Message" id="message"
-                      style="font-family: 'Source Sans Pro', sans-serif;" required
-                      data-validation-required-message="Please leave a message" name="message"></textarea>
-                    <p class="help-block text-danger"></p>
+                  <div class="control-group">
+                    <div class="form-group">
+                      <textarea class="form-control" rows="7" placeholder="Your Message" id="message"
+                        style="font-family: 'Source Sans Pro', sans-serif;" required
+                        data-validation-required-message="Please leave a message" name="message"></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
                   </div>
-                </div>
-                <div class="text-center">
-                  <div id="success"></div>
-                  <button type="submit" class="btn btn-lg btn-black">
-                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                    Send Message
-                  </button>
-                </div>
-              </form>
+                  <div class="text-center">
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-lg btn-black">
+                      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
-        </div>
-        <footer class="footer">
-          <div class="container text-center" style="font-family: 'Source Sans Pro', sans-serif;">
-            <p>© COURTNEY DOWNS 2021</p>
-          </div>
-        </footer>
-
+          <footer class="footer">
+            <div class="container text-center" style="font-family: 'Source Sans Pro', sans-serif;">
+              <p>© COURTNEY DOWNS 2021</p>
+            </div>
+          </footer>
+      </div>
+      </footer>
       </section>
     </div>
   </div>

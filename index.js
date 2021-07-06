@@ -194,8 +194,8 @@ function skillHTML() { // No Changes
   let html5css = document.getElementById("html-css");
   let fahtml5 = document.getElementById("fa-html5");
   html.style.display = "none";
-  html5css.style.color = "";
-  fahtml5.style.color = "";
+  html5css.style.color = "#000000";
+  fahtml5.style.color = "#000000";
   if (html.style.display === "none") {
     html.style.display = "block";
     fahtml5.style.color = "#c5247e";
@@ -333,8 +333,8 @@ function clearIconClicks() {
   let html5css = document.getElementById("html-css");
   let fahtml5 = document.getElementById("fa-html5");
   html.style.display = "none";
-  html5css.style.color = "";
-  fahtml5.style.color = "";
+  html5css.style.color = "#000000";
+  fahtml5.style.color = "#000000";
 
   //BOOTSTRAP
   let boot_html = document.getElementById("skill-bootstrap"); //<<< This variable name needs to be used through out
@@ -394,5 +394,5 @@ window.onbeforeunload = () => {
 //RESUME DOWNLOAD
 
 function download() {
-  window.open("CourtneyDownsResume.pdf", "_blank");
+  window.open("./assets/CourtneyDownsResume.pdf", "_blank");
 }

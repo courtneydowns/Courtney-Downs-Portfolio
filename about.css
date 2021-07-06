@@ -1,7 +1,7 @@
-.section-padding {
+/* .section-padding {
   margin-top: 156.25%;
   margin-bottom: 156.25%;
-}
+} */
 
 #about-me {
   /* height: 50vh; */
@@ -11,6 +11,8 @@
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 18px;
+  margin-top: 3em;
+  margin-bottom: 3em;
   /* break-after: auto; */
 }
 
@@ -25,10 +27,36 @@
   padding-bottom: 20px;
 }
 
-.section-padding {
+.final-para {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fa-github {
+font-size: 26px;
+  color: #c5247e;
+  margin-left: 75px;
+  padding-top: 30px;
+}
+
+#fa-linkedin {
+font-size: 40px;
+  color: #c5247e;
+  margin-left: 75px;
+}
+
+.resume-image {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 1.25em;
+  margin-left: 75px;
+}
+
+/* .section-padding {
   padding-left: auto;
   padding-right: auto;
-}
+} */
 
 .about-me-title {
   color: #000000;
@@ -37,7 +65,8 @@
   font-size: 32px;
   /* padding-top: 25px; */
   text-align: center;
-  margin-top: 100px;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 
 hr {

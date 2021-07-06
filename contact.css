@@ -4,27 +4,12 @@
 
 #contact-offset {
     position: relative;
-    margin-top: 29%;
+    padding-top: 6em;
 }
 
 /* .form {
     position: relative;
 } */
-
-.resume-icon-button {
-position: relative;
-}
-
-.image {
-    /* position:absolute; */
-    /* width: 110px;
-    height: 125px; */
-    width: 130px;
-    height: 145px;
-    margin-left: 900px;
-    margin-top: 50px;
-
-}
 
 /* .btn-white {
     background-color: white;
@@ -52,5 +37,3 @@ position: relative;
     border-width: 1px;
     border-style: solid;
     vertical-align: middle; */
-
-}
