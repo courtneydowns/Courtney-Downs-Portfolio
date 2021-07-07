@@ -16,7 +16,7 @@
     -webkit-transition: all .5s ease; 
     -moz-transition: all .5s ease; 
     -o-transition: all .5s ease;  
-    transition: all .5s ease;} */
+    transition: all .5s ease;}
 
 body .container {
     width: 70%; 
@@ -118,6 +118,7 @@ body .container {
     position: absolute; 
     color:#fff; 
     text-transform: uppercase; 
+    padding-top: 3em;
     letter-spacing: 2px; 
     position: absolute; 
     top:52%; 
