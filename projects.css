@@ -46,7 +46,8 @@ body .container {
     position: absolute; 
     color:#fff; 
     text-transform: uppercase; 
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
+    padding-bottom: 3em; 
     position: absolute; 
     top:42%; 
     left:0; 
@@ -64,7 +65,7 @@ body .container {
     position: absolute; 
     color:#fff; 
     text-transform: uppercase; 
-    padding-top: 3em;
+    padding-top: 6em;
     letter-spacing: 2px; 
     position: absolute; 
     top:52%; 
