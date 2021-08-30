@@ -1,144 +1,165 @@
 .portfolio {
-    font-family: "Playfair Display", serif;
-    font-size: 32px;
-    text-align: center;
-    margin-top: 3em;
-    margin-bottom: 3em;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .col-sm-4 {
-    width: 33.33333333%; 
-    float: left; 
-    position: relative;
+  width: 33.33333333%;
+  float: left;
+  position: relative;
 }
 
 .transition {
-    -webkit-transition: all .5s ease; 
-    -moz-transition: all .5s ease; 
-    -o-transition: all .5s ease;  
-    transition: all .5s ease;}
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 
 body .container {
-    width: 70%; 
-    margin: 0 auto;
-    margin-top: 20px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .row1 .item {
-    padding: 0;
+  padding: 0;
 }
 .row1 .item img {
-    padding: 0 !important; 
-    display: block; 
-    max-width: 100%; 
-    height: auto;
+  padding: 0 !important;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-.row1 a:hover .item img, .row1 a:focus .item img {
-    opacity: .1;
+.row1 a:hover .item img,
+.row1 a:focus .item img {
+  opacity: 0.1;
 }
-.row1 h4, .row1 p {
-    -webkit-transition: all .5s ease; 
-    -moz-transition: all .5s ease; 
-    -o-transition: all .5s ease;  transition: all .5s ease;} 
+.row1 h4,
+.row1 p {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 .row1 a .item h4 {
-    font-family: 'Playfair Display', serif; 
-    font-size: 24px; 
-    position: absolute; 
-    color:#fff; 
-    text-transform: uppercase; 
-    letter-spacing: 2px;
-    padding-bottom: 3em; 
-    position: absolute; 
-    top:42%; 
-    left:0; 
-    right:0; 
-    margin:0 auto; 
-    text-align: center; 
-    opacity: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 3em;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
 }
-.row1 a:hover .item h4, .row1 a:focus .item h4 {
-    opacity: 1;
+.row1 a:hover .item h4,
+.row1 a:focus .item h4 {
+  opacity: 1;
 }
 .row1 a .item p {
-    font-family: 'Open Source Sans', sans-serif; 
-    font-size: 12px; 
-    position: absolute; 
-    color:#fff; 
-    text-transform: uppercase; 
-    padding-top: 6em;
-    letter-spacing: 2px; 
-    position: absolute; 
-    top:52%; 
-    left:0; 
-    right:0; 
-    margin:0 auto; 
-    text-align: center; 
-    opacity: 0;
+  font-family: "Open Source Sans", sans-serif;
+  font-size: 10px;
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 6em;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
 }
 
-.row1 a:hover .item p, .row1 a:focus .item p {
-    opacity: 1;}
+.row1 a:hover .item p,
+.row1 a:focus .item p {
+  opacity: 1;
+}
 
 .row2 .item {
-    padding: 0;}
+  padding: 0;
+}
 .row2 .item img {
-    padding: 0 !important; 
-    display: block; 
-    max-width: 100%; 
-    height: auto;}
-.row2 a:hover .item img, .row2 a:focus .item img {
-    opacity: .1;}
-.row2 h4, .row2 p {
-    -webkit-transition: all .5s ease; 
-    -moz-transition: all .5s ease; 
-    -o-transition: all .5s ease;  
-    transition: all .5s ease;} 
+  padding: 0 !important;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.row2 a:hover .item img,
+.row2 a:focus .item img {
+  opacity: 0.1;
+}
+.row2 h4,
+.row2 p {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 
 .row2 a .item h4 {
-    font-family: 'Playfair Display', serif; 
-    font-size: 24px; 
-    position: absolute; 
-    color:#fff; 
-    text-transform: uppercase; 
-    letter-spacing: 2px; 
-    position: absolute; 
-    top:42%; 
-    left:0; 
-    right:0; 
-    margin:0 auto; 
-    text-align: center; 
-    opacity: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
 }
 
-.row2 a:hover .item h4, .row2 a:focus .item h4 {
-    opacity: 1;
+.row2 a:hover .item h4,
+.row2 a:focus .item h4 {
+  opacity: 1;
 }
 .row2 a .item p {
-    font-family: 'Open Source Sans', sans-serif; 
-    font-size: 12px; 
-    position: absolute; 
-    color:#fff; 
-    text-transform: uppercase; 
-    padding-top: 3em;
-    letter-spacing: 2px; 
-    position: absolute; 
-    top:52%; 
-    left:0; 
-    right:0; 
-    margin:0 auto; 
-    text-align: center; 
-    opacity: 0;
+  font-family: "Open Source Sans", sans-serif;
+  font-size: 10px;
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 6em;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
 }
-.row2 a:hover .item p, .row2 a:focus .item p {
-    opacity: 1;
+.row2 a:hover .item p,
+.row2 a:focus .item p {
+  opacity: 1;
 }
-
 
 @media screen and (max-width: 991px) {
-.col-sm-4 {width: 50%;}
-.row4 a .item h4 {font-size: 13px;}
-}   
+  .col-sm-4 {
+    width: 50%;
+  }
+  .row4 a .item h4 {
+    font-size: 13px;
+  }
+}
 
 @media screen and (max-width: 580px) {
-.col-sm-4 {width: 100%;}
-} 
+  .col-sm-4 {
+    width: 100%;
+  }
+}
