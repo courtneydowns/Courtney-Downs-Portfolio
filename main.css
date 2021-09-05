@@ -1,14 +1,14 @@
-@import "variables.css";
+@import 'variables.css';
 /* @import "mainContainer.css"; */
-@import "navbar.css";
-@import "about.css";
-@import "hero.css";
-@import "credo.css";
-@import "projects.css";
-@import "contact.css";
-@import "skillset.css";
+@import 'navbar.css';
+@import 'about.css';
+@import 'hero.css';
+@import 'credo.css';
+@import 'projects.css';
+@import 'contact.css';
+@import 'skillset.css';
 /* @import "dividerImage.css"; */
-@import "footer.css";
+@import 'footer.css';
 
 body {
   height: 100%;
@@ -26,7 +26,7 @@ body {
 /* body {
   max-width: 100%;
   overflow-x: hidden;
-} */ 
+} */
 
 /* @media (min-width: 576px) {...}
 
@@ -45,3 +45,15 @@ body {
 @media (max-width: 991.98px) {...}
 
 @media (max-width: 1399.98px) {...} */
+
+@media screen and (max-width: 575px) {
+  #navbarNav {
+    margin-top: 6px; 
+    background: linear-gradient(black, rgba(0, 0, 0, 0.85), black);
+    transform: scaleX(1.07);
+  }
+
+  .nav-item {
+    padding-left: 12px;
+  }
+}
