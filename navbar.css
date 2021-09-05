@@ -1,12 +1,8 @@
 .navbar-dark {
   position: absolute;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 100%;
   z-index: 1;
-}
-
-#navbarNav {
-  /* margin-right: 3rem; */
 }
 
 .bg-light {

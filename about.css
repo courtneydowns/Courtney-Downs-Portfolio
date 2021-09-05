@@ -1,26 +1,11 @@
-/* .section-padding {
-  margin-top: 156.25%;
-  margin-bottom: 156.25%;
-} */
-
 #about-me {
-  /* height: 50vh; */
-  /* width: 100%; */
   line-height: 1.8;
   color: #71797e;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  /* break-after: auto; */
+  margin-top: 5rem;
 }
-
-/* .about-container {
-  /* padding-bottom: 60px; */
-/* column-count: 3;
-  column-gap: 40px;
-} */
 
 .para {
   text-align: left;
@@ -38,14 +23,12 @@
   font-size: 40px;
   color: #c5247e;
   align-content: center;
-  /* margin-left: 80px; */
   padding-top: 10px;
 }
 
 #fa-linkedin {
-font-size: 40px;
+  font-size: 40px;
   color: #c5247e;
-  /* margin-left: 80px; */
   align-content: center;
   padding-top: 10px;
 }
@@ -56,20 +39,13 @@ font-size: 40px;
   margin-bottom: 1.25em;
   align-content: center;
   padding-top: 10px;
-  /* margin-left: 80px; */
 }
-
-/* .section-padding {
-  padding-left: auto;
-  padding-right: auto;
-} */
 
 .about-me-title {
   color: #000000;
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 32px;
-  /* padding-top: 25px; */
   text-align: center;
   margin-top: 3em;
   margin-bottom: 2em;
@@ -79,5 +55,5 @@ hr {
   margin-top: 9rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(113, 121, 126, 1); 
-  }
+  border-top: 1px solid rgba(113, 121, 126, 1);
+}
