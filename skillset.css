@@ -3,63 +3,21 @@
   justify-content: center;
   text-align: center;
   margin-top: 3em;
-  /* align-content: center;
-  align-items: center; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* width: 100px; */
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 32px;
-  /* align-content: center;
-  align-items: center; */
 }
 
 #skills-div {
-  /* width: 15%;
-  width: 20%;
-  padding: 1em;
-  margin: 1em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  border: 1px solid white;
-  margin: 20px;
-  margin-left: auto;
-  margin-right: auto; */
-  /* flex: 1; */
   margin: 4rem;
-  /* display: flex; */
-  /* justify-content: center; */
 }
-
-/* button {
-  padding: 10px 20px;
-  margin: 5px;
-  background-color: white;
-  color: black;
-  border: none;
-  outline: none;
-} */
 
 .skill-text {
   font-size: 20px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   text-align: center;
-  /* letter-spacing: 1px; */
 }
-
-/* #skill-summary {
-  display: none;
-  text-align: center;
-  justify-content: center;
-  font-size: 18px;
-  font-family: "Source Sans Pro", serif;
-  font-weight: 400;
-} */
 
 #html-css {
   display: block;
@@ -104,7 +62,7 @@
   justify-content: center;
   font-size: 18px;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400; 
+  font-weight: 400;
 }
 
 #skill-wireframe {
@@ -127,12 +85,12 @@
 }
 
 #skill-bootstrap {
-    display: none;
-    text-align: center;
-    justify-content: center;
-    font-size: 18px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
+  display: none;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
 }
 
 #skill-wireframe {
@@ -209,7 +167,7 @@
 
 #fa-html5 {
   color: #c5247e;
-} 
+}
 
 .html5css:hover {
   color: #c5247e;
@@ -220,8 +178,8 @@
 }
 
 .wireframe:hover {
-    color: #c5247e;
-  }
+  color: #c5247e;
+}
 
 .javascript:hover {
   color: #c5247e;
@@ -239,8 +197,12 @@
   color: #c5247e;
 }
 
-
- .fa-html5, .fa-bootstrap, .fa-js-square, .fa-react, .fa-node-js, #fagithub{
+.fa-html5,
+.fa-bootstrap,
+.fa-js-square,
+.fa-react,
+.fa-node-js,
+#fagithub {
   padding-bottom: 21.875%;
   display: flex;
   justify-content: center;
@@ -251,11 +213,3 @@
   display: flex;
   justify-content: center;
 }
-
-/* .fa-linkedin {
-
-}
-
-.fa-github {
-
-} */
