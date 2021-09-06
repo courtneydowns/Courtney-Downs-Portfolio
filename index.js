@@ -1,5 +1,4 @@
 function skillHTML() {
-  // No Changes
   clearIconClicks();
   let html = document.getElementById("skill-html");
   let html5css = document.getElementById("html-css");
@@ -21,14 +20,13 @@ function skillHTML() {
 // BOOTSTRAP
 function skillBootstrap() {
   clearIconClicks();
-  let boot_html = document.getElementById("skill-bootstrap"); //<<< This variable name needs to be used through out
+  let boot_html = document.getElementById("skill-bootstrap");
   let bootstrap = document.getElementById("bootstrap-5");
   let fabootstrap = document.getElementById("fa-bootstrap");
   boot_html.style.display = "none";
   bootstrap.style.color = "";
   fabootstrap.style.color = "";
   if (boot_html.style.display === "none") {
-    //<<<<< html.style needs to be boot_html.style
     boot_html.style.display = "block";
     fabootstrap.style.color = "#c5247e";
     bootstrap.style.color = "#c5247e";
@@ -146,7 +144,7 @@ function clearIconClicks() {
   fahtml5.style.color = "#000000";
 
   //BOOTSTRAP
-  let boot_html = document.getElementById("skill-bootstrap"); //<<< This variable name needs to be used through out
+  let boot_html = document.getElementById("skill-bootstrap");
   let bootstrap = document.getElementById("bootstrap-5");
   let fabootstrap = document.getElementById("fa-bootstrap");
   boot_html.style.display = "none";
