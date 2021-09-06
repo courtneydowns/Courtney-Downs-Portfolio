@@ -1,40 +1,16 @@
 .my-credo-title {
   text-align: center;
-  /* display: flex; */
-  /* align-content: center; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* align-content: center; */
   font-size: 32px;
   color: black;
   font-family: "Playfair Display", serif;
   font-weight: 500;
   margin-top: 3em;
-  /* margin-bottom: 3em; */
 }
 
 .credo-divs {
   text-align: center;
   margin: 50px;
-  /* padding-bottom: 2000px; */
-  /* margin-left: auto;
-  margin-right: auto; */
 }
-
-/* .h1 {
-  font-size: 3.5rem;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  display: flex;
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium;
-} */
-
-/* .credo-divs h1 {
-  font-size: 16rem;
-} */
 
 .h1-credo {
   font-size: 20px;
@@ -53,8 +29,7 @@
   font-weight: 400;
   text-align: center;
   justify-content: center;
-  /* padding-left: .309%; */
-  margin: .619%;
+  margin: 0.619%;
 }
 
 .h3-section-enthusiasm {
@@ -63,8 +38,7 @@
   font-weight: 400;
   text-align: center;
   justify-content: center;
-  /* padding-left: .309%; */
-  margin: .309%;
+  margin: 0.309%;
 }
 
 .h3-section-detail-oriented {
@@ -74,7 +48,6 @@
   text-align: center;
   justify-content: center;
   justify-items: center;
-  /* padding-left: 1.35%; */
   margin-right: 1.238%;
 }
 
@@ -94,7 +67,7 @@
   text-align: center;
   justify-content: center;
   justify-items: center;
-  margin-left: .619%;
+  margin-left: 0.619%;
 }
 
 .h3-section-teamwork {
@@ -104,7 +77,6 @@
   text-align: center;
   justify-content: center;
   justify-items: center;
-  /* padding-right: 2.05%; */
   margin-left: 6.5%;
 }
 
@@ -116,7 +88,6 @@
   justify-content: center;
   justify-items: center;
   margin-left: 1.5%;
-  /* padding-left: 5px; */
 }
 
 .h3-section-success {
@@ -126,13 +97,10 @@
   text-align: center;
   justify-content: center;
   justify-items: center;
-  margin-left: .743%;
-  /* padding-left: 5px; */
+  margin-left: 0.743%;
 }
 
 .credo-image {
-  /* display: flex; */
-  /* flex-direction: row; */
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -150,7 +118,7 @@
   text-align: center;
   justify-content: center;
   justify-items: center;
-  color:#71797e;
+  color: #71797e;
 }
 
 .credo-divs:hover .credo-para,
@@ -169,5 +137,5 @@ hr {
   margin-top: 5rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(113, 121, 126, 1); 
-  }
+  border-top: 1px solid rgba(113, 121, 126, 1);
+}

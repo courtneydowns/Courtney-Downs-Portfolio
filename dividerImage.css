@@ -1,32 +1,25 @@
 #overlay-offset {
-    position: absolute;
-    /* width: 100%; */
-    /* margin-top: 59%; */
-    border-radius: 0 !important;
-    padding: 0;
-    margin-top: 3em;
-    margin-bottom: 3em;
+  position: absolute;
+  border-radius: 0 !important;
+  padding: 0;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .card-title {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    font-size: 32px;
-    padding-top: 4%;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 4%;
 }
 
-
 .resume-icon-button {
-    position: relative;
-    }
-    
-    .image {
-        /* position:absolute; */
-        /* width: 110px;
-        height: 125px; */
-        width: 130px;
-        height: 145px;
-        margin-left: 900px;
-        margin-top: 50px;
-    
-    }
+  position: relative;
+}
+
+.image {
+  width: 130px;
+  height: 145px;
+  margin-left: 900px;
+  margin-top: 50px;
+}

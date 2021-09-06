@@ -1,50 +1,22 @@
-@import 'variables.css';
-/* @import "mainContainer.css"; */
-@import 'navbar.css';
-@import 'about.css';
-@import 'hero.css';
-@import 'credo.css';
-@import 'projects.css';
-@import 'contact.css';
-@import 'skillset.css';
-/* @import "dividerImage.css"; */
-@import 'footer.css';
+@import "variables.css";
+@import "navbar.css";
+@import "about.css";
+@import "hero.css";
+@import "credo.css";
+@import "projects.css";
+@import "contact.css";
+@import "skillset.css";
+@import "dividerImage.css";
+@import "footer.css";
 
 body {
   height: 100%;
   padding-bottom: 80px;
 }
 
-/* main {
-  height: 100%;
-} */
-
 body {
   scroll-behavior: smooth;
 }
-
-/* body {
-  max-width: 100%;
-  overflow-x: hidden;
-} */
-
-/* @media (min-width: 576px) {...}
-
-@media (min-width: 768px) {...}
-
-@media (min-width: 992px) {...}
-
-@media (min-width: 1200px) {...}
-
-@media (min-width: 1400px) {...}
-
-@media (max-width: 575.98px) {...}
-
-@media (max-width: 767.98px) {...}
-
-@media (max-width: 991.98px) {...}
-
-@media (max-width: 1399.98px) {...} */
 
 @media screen and (max-width: 575px) {
   #background-image {
