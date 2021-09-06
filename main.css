@@ -47,13 +47,13 @@ body {
 @media (max-width: 1399.98px) {...} */
 
 @media screen and (max-width: 575px) {
-  #navbarNav {
-    margin-top: 6px; 
-    background: linear-gradient(black, rgba(0, 0, 0, 0.85), black);
-    transform: scaleX(1.07);
+  #background-image {
+    height: 250px;
+    transition: all 333ms ease-out;
   }
 
-  .nav-item {
-    padding-left: 12px;
+  #background-image.expanded {
+    /* height: 385px; */
+    transform: scale(1.66);
   }
 }

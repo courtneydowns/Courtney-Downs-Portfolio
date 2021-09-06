@@ -208,3 +208,7 @@ document.getElementById("copyright").innerHTML = displayDate;
 function download() {
   window.open("./assets/CourtneyDownsResume.pdf", "_blank");
 }
+
+document.querySelector('.navbar-toggler').addEventListener('click', () => {
+  document.querySelector('#background-image').classList.toggle('expanded');
+});
