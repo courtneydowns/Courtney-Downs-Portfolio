@@ -204,9 +204,9 @@ document.getElementById("copyright").innerHTML = displayDate;
 //RESUME DOWNLOAD
 
 function download() {
-  window.open("./assets/CourtneyDownsResume.pdf", "_blank");
+  window.open("./assets/CourtneyDownsResume.Oct.21.pdf", "_blank");
 }
 
-document.querySelector('.navbar-toggler').addEventListener('click', () => {
-  document.querySelector('#background-image').classList.toggle('expanded');
+document.querySelector(".navbar-toggler").addEventListener("click", () => {
+  document.querySelector("#background-image").classList.toggle("expanded");
 });
