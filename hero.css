@@ -1,20 +1,31 @@
+#logo {
+  /* max-width: 800px; */
+  max-width: 40%;
+  position: absolute;
+  left: 30%;
+  margin-top: 10%;
+  /* margin-top: 17%; */
+  /* object-fit: cover;
+  object-position: center; */
+}
+
+#background-image {
+  height: 100vh;
+}
 /* Media Queries */
 
 @media all and (max-width: 991.98px) {
   #logo {
+    /* margin-top: 30%;
+    position: relative; */
     transform: translateY(28%);
   }
 }
 
 @media all and (max-width: 1399.98px) {
   #logo {
+    /* margin-top: 30%;
+    position: relative; */
     transform: translateY(25%);
   }
-}
-
-#logo {
-  max-width: 40%;
-  position: absolute;
-  left: 30%;
-  margin-top: 8%;
 }
