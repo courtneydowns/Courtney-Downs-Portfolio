@@ -213,5 +213,5 @@ document.getElementById("copyright").innerHTML = displayDate;
 //RESUME DOWNLOAD
 
 function download() {
-  window.open("./assets/CourtneyDownsResume.pdf", "_blank");
+  window.open("./assets/CourtneyDownsResume.docx", "_blank");
 }
