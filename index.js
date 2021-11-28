@@ -1,8 +1,8 @@
-const navbarToggler = document.querySelector('.navbar-toggler');
-const container = document.getElementById('container');
+const navbarToggler = document.querySelector(".navbar-toggler");
+const container = document.getElementById("container");
 
-navbarToggler.addEventListener('click', () => {
-  const height = container.clientHeight === 400 ? 'auto' : '400px';
+navbarToggler.addEventListener("click", () => {
+  const height = container.clientHeight === 400 ? "auto" : "400px";
 
   container.style.height = height;
 });
