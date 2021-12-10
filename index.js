@@ -215,9 +215,5 @@ document.getElementById("copyright").innerHTML = displayDate;
 //RESUME DOWNLOAD
 
 function download() {
-<<<<<<< HEAD
   window.open("./assets/CourtneyDownsResume.docx", "_blank");
-=======
-  window.open("./assets/CourtneyDownsResume.Oct.21 2.pdf", "_blank");
->>>>>>> chase
 }
